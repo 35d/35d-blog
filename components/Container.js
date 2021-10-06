@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import Nav from './Nav'
 import Footer from './Footer'
 
 export default function Container(props) {
@@ -35,7 +34,6 @@ export default function Container(props) {
         <meta name="twitter:image" content={meta.image} />
         {meta.date && <meta property="article:published_time" content={meta.date} />}
       </Head>
-      <Nav />
       <main id="skip" className="px-4">
         {children}
         <Footer />

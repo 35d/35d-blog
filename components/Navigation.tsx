@@ -12,15 +12,10 @@ const navItems: { label: string; page?: string; link?: string }[] = [
 ]
 
 const Navigation = ({ titlePre = '', ogImageUrl = '', description = '', slug = '' }) => {
-  // const { pathname } = useRouter()
-  // const [shouldShowHeader, setShouldShowHeader] = useState(true)
   const { isDarkMode, toggleDarkMode } = useDarkMode()
 
   return (
     <header className={`z-50 static sm:fixed w-full sm:w-1/4 ml-0 mb-10`}>
-      {/* <div className={styles.darkmodeArea}>
-        <DarkModeToggle />
-      </div> */}
       <ul className="list-none">
         <li className={'mb-4 -mt-2 font-bold text-lg'}>
           <Link href={'/'} prefetch={false}>

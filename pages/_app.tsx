@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import 'react-medium-image-zoom/dist/styles.css'
 import { ThemeProvider } from 'styled-components'
 import '../styles.css'
-import Navigation from '../components/Navigation.tsx'
+import Navigation from '../components/Navigation'
 import { darkTheme, lightTheme } from '../constants/Theme'
 import * as gtag from '../lib/gtag'
 
@@ -31,14 +31,12 @@ export default ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme === 'LIGHT' ? lightTheme : darkTheme}>
       <>
-        {/* <GlobalStyles /> */}
         <DarkModeContext.Provider value={{ theme, toggleDarkMode }}>
           <div className="w-full max-w-3xl mx-auto flex flex-wrap items-start overflow-hidden">
             <Navigation />
             <main className="w-full sm:w-3/4 sm:-mt-1 ml-0 sm:ml-1/4">
               <Component {...pageProps} className="w-full sm:w-3/4 sm:-mt-1 ml-0 sm:ml-1/4" />
             </main>
-            {/* <Footer /> */}
           </div>
         </DarkModeContext.Provider>
       </>

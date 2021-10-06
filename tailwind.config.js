@@ -1,8 +1,15 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: false,
+  purge: [],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      padding: {
+        '[5%]': '5%',
+      },
+      margin: {
+        '1/4': '25%',
+      },
+    },
   },
   variants: {
     extend: {},

@@ -41,9 +41,6 @@ export default function Home({ posts }) {
                   <h3 className="text-xl font-medium w-full text-gray-900">
                     {post.properties.Page.title[0].plain_text}
                   </h3>
-                  <p className="text-gray-700 text-md">
-                    {/* {post.properties.Description.rich_text[0].plain_text} */}
-                  </p>
                 </div>
               </a>
             </Link>
