@@ -93,7 +93,7 @@ const StockArticles = (props) => {
                 <ul className="list-none">
                   {_.stockArticles.map((_, i) => {
                     return (
-                      <div key={_.title + i}>
+                      <div key={_.title.title[0]?.plain_text + i}>
                         <ListItem
                           title={_.title.title[0]?.plain_text}
                           url={_.url.url}

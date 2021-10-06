@@ -8,7 +8,6 @@ import { getBlogTagLink, postIsReady } from '../../lib/helpers'
 const databaseId = process.env.NOTION_DATABASE_ID
 
 export async function getStaticProps({ params: { tagName } }) {
-  console.log(tagName)
 
   const database = await getNotionData(databaseId, {
     or: [
