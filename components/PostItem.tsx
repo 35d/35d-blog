@@ -12,11 +12,7 @@ type Post = any
 const PostItem = ({ post }: { post: Post }) => {
   return (
     <li className="list-none">
-      <Link
-        href="/[slug]"
-        as={getBlogLink(post.properties.Slug.rich_text[0].plain_text)}
-        prefetch={false}
-      >
+      <Link href={getBlogLink(post.properties.Slug.rich_text[0].plain_text)}>
         <a className="no-underline font-medium hover:bg-gray-300 dark:hover:bg-gray-900">
           <span>{post.properties.Page.title[0].plain_text}</span>
         </a>
