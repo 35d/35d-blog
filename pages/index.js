@@ -69,15 +69,17 @@ export default function Home({ posts }) {
         {!posts.length && <p className="text-gray-600 mb-4">No posts found.</p>}
 
         {posts.map((post) => {
+          console.log('@')
+          console.log(post)
           return (
             <Link key={post.id} href={`/${post.properties.Slug.rich_text[0].plain_text}`}>
               <a className="w-full">
                 <div className="mb-8 w-full">
                   <h3 className="text-xl font-medium w-full text-gray-900">
-                    {post.properties.Post.title[0].plain_text}
+                    {post.properties.Page.title[0].plain_text}
                   </h3>
                   <p className="text-gray-700 text-md">
-                    {post.properties.Description.rich_text[0].plain_text}
+                    {/* {post.properties.Description.rich_text[0].plain_text} */}
                   </p>
                 </div>
               </a>

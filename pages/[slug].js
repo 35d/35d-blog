@@ -20,7 +20,7 @@ export default function Post({ page, blocks }) {
       </span>
 
       <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-5 text-black">
-        {page.properties.Post.title[0].plain_text}
+        {page.properties.Page.title[0].plain_text}
       </h1>
 
       {blocks.map((block) => {
