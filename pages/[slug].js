@@ -31,7 +31,6 @@ export default function Post({ page, blocks }) {
 
         switch (type) {
           case 'paragraph':
-            // TODO Text を children 形式に変更
             return <Text text={value.text} id={id} key={id} />
 
           case 'heading_1':
