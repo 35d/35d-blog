@@ -1,0 +1,6 @@
+Sitemap: https://blog.35d.jp/api/sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

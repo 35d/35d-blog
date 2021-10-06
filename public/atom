@@ -1,0 +1,3684 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>35d blog</title>
+    <subtitle>@___35d のブログです</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2021-08-16T17:07:29.214Z</updated>
+    <id>35d blog</id>
+    <entry>
+      <id>/2021-07-26-expo-sdk-update</id>
+      <title>Expo SDK のアップデートのメモ（SDK 37 → 42 / RN 0.61.5 → 0.63.4）</title>
+      <link href="/2021-07-26-expo-sdk-update"/>
+      <updated>2021-07-25T15:00:00.083Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-07-26-expo-sdk-update">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-28-subscribed-service</id>
+      <title>お金を払っている購読型（サブスク）サービス 2021年上半期</title>
+      <link href="/2020-06-28-subscribed-service"/>
+      <updated>2020-12-02T15:00:00.083Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-28-subscribed-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-06-24-otesuki</id>
+      <title>「お手すきで」問題</title>
+      <link href="/2021-06-24-otesuki"/>
+      <updated>2021-06-23T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-06-24-otesuki">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-29-iphone-screen</id>
+      <title>iPhone ホーム画面晒し 2021年3月</title>
+      <link href="/2021-03-29-iphone-screen"/>
+      <updated>2021-03-28T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-29-iphone-screen">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-19-inventory</id>
+      <title>棚卸し（2021年3月）</title>
+      <link href="/2021-03-19-inventory"/>
+      <updated>2021-03-18T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-19-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-07-well-being-book</id>
+      <title>「99.9%は幸せの素人」を読んだ</title>
+      <link href="/2021-03-07-well-being-book"/>
+      <updated>2021-03-06T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-07-well-being-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-06-reeder-5</id>
+      <title>Reeder 5 を使い始めた（Feedly から乗り換えた）</title>
+      <link href="/2021-03-06-reeder-5"/>
+      <updated>2021-03-05T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-06-reeder-5">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-10-gym-debut</id>
+      <title>人生初のジムデビュー</title>
+      <link href="/2020-12-10-gym-debut"/>
+      <updated>2020-11-21T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-10-gym-debut">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-05-git-client</id>
+      <title>Git クライアント 2020</title>
+      <link href="/2020-12-05-git-client"/>
+      <updated>2020-11-21T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-05-git-client">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-10-thinking-tips</id>
+      <title>「考え方のコツ」を読んだ</title>
+      <link href="/2020-11-10-thinking-tips"/>
+      <updated>2020-11-09T15:00:00.084Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-10-thinking-tips">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-04-diary</id>
+      <title>鬼滅の刃、衣替え、Eats パス、数学 YouTube</title>
+      <link href="/2020-10-04-diary"/>
+      <updated>2020-10-03T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-04-diary">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-29-lemon</id>
+      <title>キレートレモンをまとめ買いした</title>
+      <link href="/2020-08-29-lemon"/>
+      <updated>2020-08-28T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-29-lemon">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-28-display</id>
+      <title>34 インチ曲面ディスプレイを購入した</title>
+      <link href="/2020-07-28-display"/>
+      <updated>2020-07-27T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-28-display">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-21-vercel-cli</id>
+      <title>Vercel の環境変数を CLI でセットする</title>
+      <link href="/2020-06-21-vercel-cli"/>
+      <updated>2020-06-20T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-21-vercel-cli">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-18-notion-gtd</id>
+      <title>Notion + GTD でストレスフリーな生活を手に入れる</title>
+      <link href="/2020-01-18-notion-gtd"/>
+      <updated>2020-01-17T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-18-notion-gtd">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-07-22-fast-notion-api-mode</id>
+      <title>Fast Notion v2.9.0 リリース / Notion API Mode の設定方法</title>
+      <link href="/2021-07-22-fast-notion-api-mode"/>
+      <updated>2021-07-21T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-07-22-fast-notion-api-mode">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-08-xcode-landscape</id>
+      <title>iPhone は Portrait のみ、iPad は Landscape にも対応させる（Xcode 12.3）</title>
+      <link href="/2021-03-08-xcode-landscape"/>
+      <updated>2021-03-07T15:00:00.085Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-08-xcode-landscape">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-21-birthday</id>
+      <title>30歳になった</title>
+      <link href="/2020-10-21-birthday"/>
+      <updated>2020-10-20T15:00:00.086Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-21-birthday">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-10-condition</id>
+      <title>しばらく体調が優れなかった（復活した）</title>
+      <link href="/2020-08-10-condition"/>
+      <updated>2020-08-09T15:00:00.086Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-10-condition">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-30-iphone-home</id>
+      <title>iPhone ホーム画面晒し 2020年7月</title>
+      <link href="/2020-07-30-iphone-home"/>
+      <updated>2020-07-29T15:00:00.086Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-30-iphone-home">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-26-bonus-track</id>
+      <title>下北沢 BONUS TRACK に行ってきた</title>
+      <link href="/2020-07-26-bonus-track"/>
+      <updated>2020-07-25T15:00:00.086Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-26-bonus-track">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-18-wakaranai</id>
+      <title>何が分からないのかを言語化することの重要性</title>
+      <link href="/2020-07-18-wakaranai"/>
+      <updated>2020-07-17T15:00:00.086Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-18-wakaranai">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-04-kakutei-shinkoku</id>
+      <title>2019 年度の確定申告の提出をした</title>
+      <link href="/2020-03-04-kakutei-shinkoku"/>
+      <updated>2020-03-03T15:00:00.086Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-04-kakutei-shinkoku">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-12-31-matome</id>
+      <title>2018年 良かった記事まとめ</title>
+      <link href="/2018-12-31-matome"/>
+      <updated>2018-12-30T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-12-31-matome">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-07-19-like</id>
+      <title>ルックバックを読んだ / 好きな人の好きなものが自分の好きなものだと嬉しい</title>
+      <link href="/2021-07-19-like"/>
+      <updated>2021-07-18T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-07-19-like">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-27-fast-notion-release-note</id>
+      <title>（随時更新）Fast Notion リリースノート</title>
+      <link href="/2020-12-27-fast-notion-release-note"/>
+      <updated>2020-11-21T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-27-fast-notion-release-note">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-22-vscode-insider</id>
+      <title>VSCode の Insider 版（M1 Mac 対応・かなりサクサク）</title>
+      <link href="/2020-12-22-vscode-insider"/>
+      <updated>2020-12-21T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-22-vscode-insider">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-22-iphone-home</id>
+      <title>iPhone ホーム画面晒し 2020年9月</title>
+      <link href="/2020-09-22-iphone-home"/>
+      <updated>2020-09-21T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-22-iphone-home">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-30-reading-book</id>
+      <title>DaiGo さんの「オトナのための【読書感想文の書き方】」を見た</title>
+      <link href="/2020-06-30-reading-book"/>
+      <updated>2020-06-29T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-30-reading-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-12-notion-blog-google-adsense</id>
+      <title>Notion Blog (Next.js) に Google Adsense を導入する</title>
+      <link href="/2020-04-12-notion-blog-google-adsense"/>
+      <updated>2020-04-11T15:00:00.087Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-12-notion-blog-google-adsense">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-02-vuepress-now</id>
+      <title>VuePress で作ったブログを now にデプロイして、独自ドメインを当てるまで（お名前.com）</title>
+      <link href="/2020-04-02-vuepress-now"/>
+      <updated>2020-04-01T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-02-vuepress-now">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-07-06-fast-notion-support</id>
+      <title>Fast Notion 導入サポートプラン</title>
+      <link href="/2021-07-06-fast-notion-support"/>
+      <updated>2021-07-05T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-07-06-fast-notion-support">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-15-amazon-food</id>
+      <title>集中力を維持するための食べ物 （Amazon まとめ買い 2021年3月版）</title>
+      <link href="/2021-03-15-amazon-food"/>
+      <updated>2021-03-14T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-15-amazon-food">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-23-zatsu</id>
+      <title>スプラトゥーン3 / 最近買ったもの / 佐藤可士和展</title>
+      <link href="/2021-02-23-zatsu"/>
+      <updated>2021-02-22T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-23-zatsu">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-11-best-buy-2020</id>
+      <title>2020年 買ってよかったもの（生活編）</title>
+      <link href="/2020-12-11-best-buy-2020"/>
+      <updated>2020-12-10T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-11-best-buy-2020">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-22-add-contact-form</id>
+      <title>このブログに問い合わせ導線を付けた</title>
+      <link href="/2020-11-22-add-contact-form"/>
+      <updated>2020-11-21T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-22-add-contact-form">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-14-notion-timeline-view</id>
+      <title>Notion のタイムラインビューを用いてプロジェクトのガントチャートを作成する</title>
+      <link href="/2020-11-14-notion-timeline-view"/>
+      <updated>2020-11-13T15:00:00.088Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-14-notion-timeline-view">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-06-fast-notion</id>
+      <title>Fast Notion v2.1.1 を審査に提出した（細かなデザインの修正）</title>
+      <link href="/2020-09-06-fast-notion"/>
+      <updated>2020-09-05T15:00:00.089Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-06-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-10-stress</id>
+      <title>ストレスになりやすいものの言語化とその対策 2020</title>
+      <link href="/2020-07-10-stress"/>
+      <updated>2020-07-09T15:00:00.089Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-10-stress">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-19-tabnine</id>
+      <title>ディープラーニングで次に書くコードを予測してくれる TabNine が便利</title>
+      <link href="/2020-04-19-tabnine"/>
+      <updated>2020-04-18T15:00:00.089Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-19-tabnine">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-06-14-question</id>
+      <title>「問い」と「説得」</title>
+      <link href="/2021-06-14-question"/>
+      <updated>2021-06-13T15:00:00.089Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-06-14-question">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-05-fix-notion-blog</id>
+      <title>Notion Blog / Fast Notion の不具合（2021年3月5日）</title>
+      <link href="/2021-03-05-fix-notion-blog"/>
+      <updated>2021-03-04T15:00:00.089Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-05-fix-notion-blog">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-04-theme</id>
+      <title>今年のテーマ / 最近考えていること</title>
+      <link href="/2021-01-04-theme"/>
+      <updated>2020-11-21T15:00:00.089Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-04-theme">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-18-github-private-registry-yarn-install</id>
+      <title>GitHub Package Registry の認証を通して yarn install する</title>
+      <link href="/2020-12-18-github-private-registry-yarn-install"/>
+      <updated>2020-12-17T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-18-github-private-registry-yarn-install">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-28-stress-free</id>
+      <title>「ストレスフリー超大全」を読んだ</title>
+      <link href="/2020-11-28-stress-free"/>
+      <updated>2020-11-21T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-28-stress-free">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-14-iphone-12-mini</id>
+      <title>iPhone 12 mini を購入した</title>
+      <link href="/2020-11-14-iphone-12-mini"/>
+      <updated>2020-11-13T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-14-iphone-12-mini">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-04-fast-notion</id>
+      <title>Fast Notion v2.0 を審査に提出した</title>
+      <link href="/2020-08-04-fast-notion"/>
+      <updated>2020-08-03T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-04-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-23-notion-company</id>
+      <title>【2020年上半期】Notion を半年間ハードに使い倒した僕たちの会社の活用事例</title>
+      <link href="/2020-07-23-notion-company"/>
+      <updated>2020-07-22T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-23-notion-company">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-20-ipad</id>
+      <title>【2020年7月】iPad 活用法メモ（Web 系エンジニア・UI/UX デザイン・プログラミング）</title>
+      <link href="/2020-07-20-ipad"/>
+      <updated>2020-07-19T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-20-ipad">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-02-ringfit</id>
+      <title>リングフィットアドベンチャー56日目</title>
+      <link href="/2020-07-02-ringfit"/>
+      <updated>2020-07-01T15:00:00.090Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-02-ringfit">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-27-fast-notion</id>
+      <title>Fast Notion のインストール数が 2,000 を超えた</title>
+      <link href="/2020-06-27-fast-notion"/>
+      <updated>2020-06-26T15:00:00.091Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-27-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-08-magic-keyboard</id>
+      <title>iPad 用 Magic Keyboard を購入した</title>
+      <link href="/2020-05-08-magic-keyboard"/>
+      <updated>2020-05-07T15:00:00.091Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-08-magic-keyboard">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-05-vscode-shortcut</id>
+      <title>僕がよく使う VSCode のペイン移動のショートカットキーまとめ</title>
+      <link href="/2020-05-05-vscode-shortcut"/>
+      <updated>2020-05-04T15:00:00.091Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-05-vscode-shortcut">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-01-tax-return</id>
+      <title>2019年度の確定申告の書類準備をした</title>
+      <link href="/2020-03-01-tax-return"/>
+      <updated>2020-02-29T15:00:00.091Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-01-tax-return">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-16-notion-blog</id>
+      <title>Notion Blog を使って、いま最もモダンなブログ環境を構築する</title>
+      <link href="/2020-01-16-notion-blog"/>
+      <updated>2020-01-15T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-16-notion-blog">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-12-12-react-native-animation-card</id>
+      <title>React Native でインタラクティブなカードを作る</title>
+      <link href="/2018-12-12-react-native-animation-card"/>
+      <updated>2018-12-11T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-12-12-react-native-animation-card">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-10-23-inventory</id>
+      <title>棚卸し(2018 年 10 月)</title>
+      <link href="/2018-10-23-inventory"/>
+      <updated>2018-10-22T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-10-23-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-06-07-giron</id>
+      <title>「滑稽な」議論を避ける</title>
+      <link href="/2021-06-07-giron"/>
+      <updated>2021-06-06T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-06-07-giron">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-22-fast-notion-initial-setting</id>
+      <title>Fast Notion 初期設定方法（トークン・投稿先 URL の習得方法）</title>
+      <link href="/2021-04-22-fast-notion-initial-setting"/>
+      <updated>2021-04-21T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-22-fast-notion-initial-setting">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-24-top-5-book</id>
+      <title>「AI 分析で分かったトップ5%社員の習慣」を読んだ</title>
+      <link href="/2020-12-24-top-5-book"/>
+      <updated>2020-11-21T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-24-top-5-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-23-notion-blog-design</id>
+      <title>このブログ（Notion Blog）のデザインを変更した</title>
+      <link href="/2020-11-23-notion-blog-design"/>
+      <updated>2020-11-22T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-23-notion-blog-design">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-06-notion-blog-dark-mode</id>
+      <title>Notion Blog (Next.js) でダークモードを実現する（React Context + Styled Component）</title>
+      <link href="/2020-10-06-notion-blog-dark-mode"/>
+      <updated>2020-10-05T15:00:00.092Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-06-notion-blog-dark-mode">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-02-pc-stand</id>
+      <title>PC スタンドを購入した</title>
+      <link href="/2020-08-02-pc-stand"/>
+      <updated>2020-08-01T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-02-pc-stand">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-19-figma</id>
+      <title>2020年6-7月は Figma 力を鍛えていきたい</title>
+      <link href="/2020-06-19-figma"/>
+      <updated>2020-06-18T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-19-figma">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-06-notion-blog-tag-1</id>
+      <title>Notion Blog にタグ機能を追加する【Notion Blog 徹底解説 #6】</title>
+      <link href="/2020-06-06-notion-blog-tag-1"/>
+      <updated>2020-06-06T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-06-notion-blog-tag-1">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-30-notion-blog-matome</id>
+      <title>Notion Blog 徹底解説シリーズまとめ</title>
+      <link href="/2020-06-30-notion-blog-matome"/>
+      <updated>2020-06-29T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-30-notion-blog-matome">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-08-concentration</id>
+      <title>自分が集中モード（ゾーン）に入るために必要な条件の考察</title>
+      <link href="/2020-05-08-concentration"/>
+      <updated>2020-05-08T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-08-concentration">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-02-iphone-home</id>
+      <title>iPhone ホーム画面晒し 2020年5月</title>
+      <link href="/2020-05-02-iphone-home"/>
+      <updated>2020-05-01T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-02-iphone-home">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-24-ffmpeg</id>
+      <title>FFmpeg で、動画ファイルから gif 動画を作るコマンドのメモ</title>
+      <link href="/2020-04-24-ffmpeg"/>
+      <updated>2020-04-23T15:00:00.093Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-24-ffmpeg">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-20-work-place</id>
+      <title>自宅の作業環境を変更した</title>
+      <link href="/2020-04-20-work-place"/>
+      <updated>2020-04-19T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-20-work-place">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-12-06-subscribed-service</id>
+      <title>2018 年下半期 お金を払っている購読型サービス</title>
+      <link href="/2018-12-06-subscribed-service"/>
+      <updated>2018-12-05T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-12-06-subscribed-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-05-25-notion-youtube</id>
+      <title>YouTube はじめてみた</title>
+      <link href="/2021-05-25-notion-youtube"/>
+      <updated>2021-05-24T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-05-25-notion-youtube">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-05-05-fast-notion-1st-anniversary</id>
+      <title>Fast Notion 1周年＆ 10,000 ダウンロード突破 🎉</title>
+      <link href="/2021-05-05-fast-notion-1st-anniversary"/>
+      <updated>2021-05-04T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-05-05-fast-notion-1st-anniversary">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-28-what-is-thinking</id>
+      <title>「考える」習慣をつくる</title>
+      <link href="/2021-04-28-what-is-thinking"/>
+      <updated>2021-04-27T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-28-what-is-thinking">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-27-oyashirazu</id>
+      <title>親知らずを抜いた</title>
+      <link href="/2021-04-27-oyashirazu"/>
+      <updated>2021-04-26T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-27-oyashirazu">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-26-zatsu</id>
+      <title>note / ドルツジェットウォッシャー / ミッドナイト・ゴスペル</title>
+      <link href="/2021-01-26-zatsu"/>
+      <updated>2021-01-25T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-26-zatsu">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-24-time-edit</id>
+      <title>「時間編集術」を読んだ</title>
+      <link href="/2021-01-24-time-edit"/>
+      <updated>2021-01-23T15:00:00.094Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-24-time-edit">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-05-kimetsu</id>
+      <title>鬼滅の刃 最終巻を読んだ</title>
+      <link href="/2020-12-05-kimetsu"/>
+      <updated>2020-12-04T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-05-kimetsu">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-24-notion-presentation</id>
+      <title>Notion の公開ページをスライド化してくれる Web サービス Wunderpresentation が便利</title>
+      <link href="/2020-11-24-notion-presentation"/>
+      <updated>2020-11-23T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-24-notion-presentation">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-10-next-v10-update</id>
+      <title>このブログ（Notion Blog）の Next.js を v9.5 → v10.0 にアップデートした</title>
+      <link href="/2020-11-10-next-v10-update"/>
+      <updated>2020-11-09T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-10-next-v10-update">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-14-confidence</id>
+      <title>「自信」を読んだ</title>
+      <link href="/2020-10-14-confidence"/>
+      <updated>2020-10-13T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-14-confidence">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-21-notion-inline-sub-pages</id>
+      <title>Notion v2.0.8 の新機能 Inline sub-pages が便利なのでみんな使おう</title>
+      <link href="/2020-09-21-notion-inline-sub-pages"/>
+      <updated>2020-09-20T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-21-notion-inline-sub-pages">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-01-notion-weather</id>
+      <title>Notion にお天気ウィジェットを配置し、毎日の天気を確認する</title>
+      <link href="/2020-06-01-notion-weather"/>
+      <updated>2020-05-31T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-01-notion-weather">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-11-notion-blog-youtube-embed</id>
+      <title>Notion Blog で YouTube 動画埋め込みを実現する【Notion Blog 徹底解説 #3】</title>
+      <link href="/2020-05-11-notion-blog-youtube-embed"/>
+      <updated>2020-05-27T15:00:00.095Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-11-notion-blog-youtube-embed">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-18-flexispot</id>
+      <title>3万円で最高のデスク環境が完成してしまった （FLEXISPOT を購入した）</title>
+      <link href="/2020-05-18-flexispot"/>
+      <updated>2020-05-17T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-18-flexispot">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-12-twitter-slack-ifttt</id>
+      <title>Twitter のエゴサーチ結果を Slack に通知する</title>
+      <link href="/2020-04-12-twitter-slack-ifttt"/>
+      <updated>2020-04-11T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-12-twitter-slack-ifttt">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-05-vuepress-to-notion-blog</id>
+      <title>Notion Blog へ移行した（VuePress との比較）</title>
+      <link href="/2020-04-05-vuepress-to-notion-blog"/>
+      <updated>2020-04-04T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-05-vuepress-to-notion-blog">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-02-scraping-puppeteer</id>
+      <title>Puppeteer を用いた Web スクレイピング</title>
+      <link href="/2020-04-02-scraping-puppeteer"/>
+      <updated>2020-04-01T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-02-scraping-puppeteer">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-05-18-subscribed-service</id>
+      <title>2018 年上半期 お金を払っている購読型サービス</title>
+      <link href="/2018-05-18-subscribed-service"/>
+      <updated>2018-05-17T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-05-18-subscribed-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-05-20-fast-notion</id>
+      <title>Fast Notion v2.8.0 をリリースした（年間プランの追加）</title>
+      <link href="/2021-05-20-fast-notion"/>
+      <updated>2021-05-19T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-05-20-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-08-notion-blog-book</id>
+      <title>読んだ本をこのサイト（Notion Blog）で公開するようにした（少し実装の話）</title>
+      <link href="/2021-01-08-notion-blog-book"/>
+      <updated>2020-11-21T15:00:00.096Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-08-notion-blog-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-02-splatoon</id>
+      <title>スプラトゥーン2振り返り 2020年12月</title>
+      <link href="/2021-01-02-splatoon"/>
+      <updated>2021-01-01T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-02-splatoon">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-27-fast-notion-q-and-a</id>
+      <title>（随時更新）Fast Notion よくある質問</title>
+      <link href="/2020-12-27-fast-notion-q-and-a"/>
+      <updated>2020-12-26T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-27-fast-notion-q-and-a">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-22-mac-mini</id>
+      <title>Mac mini を購入した</title>
+      <link href="/2020-12-22-mac-mini"/>
+      <updated>2020-12-21T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-22-mac-mini">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-12-white-ghost</id>
+      <title>ホワイトゴーストを購入した</title>
+      <link href="/2020-12-12-white-ghost"/>
+      <updated>2020-12-11T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-12-white-ghost">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-03-subscribed-service</id>
+      <title>お金を払っている購読型（サブスク）サービス 2020年下半期</title>
+      <link href="/2020-12-03-subscribed-service"/>
+      <updated>2020-12-02T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-03-subscribed-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-08-inventory</id>
+      <title>棚卸し（2020年9月）</title>
+      <link href="/2020-10-08-inventory"/>
+      <updated>2020-10-07T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-08-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-02-github-actions</id>
+      <title>Netlify → Firebas Hosting に引っ越した際の Github Actions の設定メモ（デプロイ、Slack 通知、キャッシュ、[skip ci]）</title>
+      <link href="/2020-10-02-github-actions"/>
+      <updated>2020-10-01T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-02-github-actions">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-15-input</id>
+      <title>「学び効率が最大化する インプット大全」を読んだ</title>
+      <link href="/2020-07-15-input"/>
+      <updated>2020-07-14T15:00:00.097Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-15-input">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-06-notion-daily-log</id>
+      <title>Notion 7月分のデイリーログページを作成した</title>
+      <link href="/2020-07-06-notion-daily-log"/>
+      <updated>2020-07-05T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-06-notion-daily-log">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-13-ringfit</id>
+      <title>リングフィットアドベンチャー47日目</title>
+      <link href="/2020-05-13-ringfit"/>
+      <updated>2020-05-12T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-13-ringfit">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-02-tax-return</id>
+      <title>サブスクサービス領収書出力方法自分用まとめ（2019 年度）</title>
+      <link href="/2020-03-02-tax-return"/>
+      <updated>2020-03-01T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-02-tax-return">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-05-12-air-pods-auto-connect</id>
+      <title>AirPods の接続が他の端末に吸われる問題を解消する</title>
+      <link href="/2021-05-12-air-pods-auto-connect"/>
+      <updated>2021-05-11T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-05-12-air-pods-auto-connect">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-14-notion-progress-bar</id>
+      <title>Notion でプロジェクトの進捗を可視化する（Formula 機能の使い方）</title>
+      <link href="/2021-01-14-notion-progress-bar"/>
+      <updated>2021-01-13T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-14-notion-progress-bar">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-09-portfolio</id>
+      <title>作ったもの</title>
+      <link href="/2021-01-09-portfolio"/>
+      <updated>2021-01-08T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-09-portfolio">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-07-mac-screenshot-directory</id>
+      <title>Mac でスクリーンショットの保存先を任意のフォルダに変更する</title>
+      <link href="/2020-12-07-mac-screenshot-directory"/>
+      <updated>2020-12-06T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-07-mac-screenshot-directory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-04-splatoon</id>
+      <title>スプラトゥーン2振り返り 2020年11月</title>
+      <link href="/2020-12-04-splatoon"/>
+      <updated>2020-11-08T15:00:00.098Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-04-splatoon">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-09-xcode-ipad-error</id>
+      <title>Fast Notion を iPad 対応したときにハマったこと （ERROR ITMS-90023: &quot;Missing required icon file.&quot;）</title>
+      <link href="/2020-09-09-xcode-ipad-error"/>
+      <updated>2020-09-08T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-09-xcode-ipad-error">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-25-fujifilm-x-t30</id>
+      <title>FUJIFILM X-T30 購入した</title>
+      <link href="/2020-07-25-fujifilm-x-t30"/>
+      <updated>2020-07-24T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-25-fujifilm-x-t30">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-23-notion-blog-1</id>
+      <title>Notion Blog でブログを開設する【Notion Blog 徹底解説 #1】</title>
+      <link href="/2020-05-23-notion-blog-1"/>
+      <updated>2020-05-22T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-23-notion-blog-1">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-12-next-link</id>
+      <title>Notion Blog に「次の記事 / 前の記事」機能を実装した</title>
+      <link href="/2020-05-12-next-link"/>
+      <updated>2020-05-11T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-12-next-link">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-04-vuex-validation</id>
+      <title>Nuxt.js + Vuex におけるフォームバリデーションのベストプラクティスを考える</title>
+      <link href="/2020-05-04-vuex-validation"/>
+      <updated>2020-05-03T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-04-vuex-validation">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-01-sync-todo-notion</id>
+      <title>Notion 複数ページ間で TODO リストを同期する方法</title>
+      <link href="/2020-05-01-sync-todo-notion"/>
+      <updated>2020-04-30T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-01-sync-todo-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-27-web-worker</id>
+      <title>Vue.js で WebWorker を使って、重い処理をバックグラウンドへ逃がす</title>
+      <link href="/2020-01-27-web-worker"/>
+      <updated>2020-01-26T15:00:00.099Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-27-web-worker">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-22-fast-notion-help-center</id>
+      <title>Fast Notion ヘルプセンター</title>
+      <link href="/2021-04-22-fast-notion-help-center"/>
+      <updated>2021-04-21T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-22-fast-notion-help-center">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-15-hyper-hard-boiled</id>
+      <title>ハイパーハードボイルドグルメリポート</title>
+      <link href="/2021-04-15-hyper-hard-boiled"/>
+      <updated>2021-04-14T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-15-hyper-hard-boiled">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-09-to-do-notion-release-note</id>
+      <title>（随時更新）To Do Notion リリースノート</title>
+      <link href="/2021-01-09-to-do-notion-release-note"/>
+      <updated>2021-01-08T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-09-to-do-notion-release-note">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-29-book</id>
+      <title>読んだ本 2020年11月</title>
+      <link href="/2020-11-29-book"/>
+      <updated>2020-11-29T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-29-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-29-moft-mini</id>
+      <title>MOFT MINI を購入した</title>
+      <link href="/2020-11-29-moft-mini"/>
+      <updated>2020-11-21T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-29-moft-mini">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-18-notion-stock</id>
+      <title>Notion で読んだ記事の保存をしていくのが楽しい</title>
+      <link href="/2020-08-18-notion-stock"/>
+      <updated>2020-08-17T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-18-notion-stock">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-07-notion-template-gallery</id>
+      <title>Notion デザインの参考に。テンプレートギャラリーがオススメ</title>
+      <link href="/2020-08-07-notion-template-gallery"/>
+      <updated>2020-08-06T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-07-notion-template-gallery">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-13-typescript-book</id>
+      <title>TypeScript の勉強のために『プログラミング TypeScript』を読んでいる</title>
+      <link href="/2020-06-13-typescript-book"/>
+      <updated>2020-06-12T15:00:00.100Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-13-typescript-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-29-fast-notion</id>
+      <title>Fast Notion というアプリを作ってリリースした</title>
+      <link href="/2020-05-29-fast-notion"/>
+      <updated>2020-05-28T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-29-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-20-ghee</id>
+      <title>ギーを購入した</title>
+      <link href="/2020-03-20-ghee"/>
+      <updated>2020-03-19T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-20-ghee">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-04-15-inventory</id>
+      <title>棚卸し(2019 年 4 月)</title>
+      <link href="/2019-04-15-inventory"/>
+      <updated>2019-04-14T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-04-15-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-06-18-new-macbook</id>
+      <title>新しい MacBook Pro を購入しました</title>
+      <link href="/2018-06-18-new-macbook"/>
+      <updated>2018-06-17T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-06-18-new-macbook">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-22-fast-notion-features</id>
+      <title>Fast Notion 主な機能の説明</title>
+      <link href="/2021-04-22-fast-notion-features"/>
+      <updated>2021-04-21T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-22-fast-notion-features">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-10-notion-note-magazine</id>
+      <title>Notion の情報のみをひたすら発信する note マガジンを作ってみた</title>
+      <link href="/2021-02-10-notion-note-magazine"/>
+      <updated>2021-02-09T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-10-notion-note-magazine">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-01-notion-magazine</id>
+      <title>（随時更新）Notion 事例まとめマガジン</title>
+      <link href="/2021-01-01-notion-magazine"/>
+      <updated>2020-12-31T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-01-notion-magazine">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-23-eslint-prettier-shareable-config</id>
+      <title>ESLint と Prettier の設定を共通化し、異なるプロジェクトでも同じ設定を使えるようにする（Shareable Configs 機能）</title>
+      <link href="/2020-12-23-eslint-prettier-shareable-config"/>
+      <updated>2020-11-21T15:00:00.101Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-23-eslint-prettier-shareable-config">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-25-koriyama</id>
+      <title>郡山・左利きのエレン</title>
+      <link href="/2020-11-25-koriyama"/>
+      <updated>2020-11-24T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-25-koriyama">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-31-notion-daily-log-page-11</id>
+      <title>Notion 11月分のデイリーログページを作成した</title>
+      <link href="/2020-10-31-notion-daily-log-page-11"/>
+      <updated>2020-10-30T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-31-notion-daily-log-page-11">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-29-github-actions-path</id>
+      <title>GitHub Action で特定のディレクトリ配下に変更があったときのみワークフローを実行する</title>
+      <link href="/2020-09-29-github-actions-path"/>
+      <updated>2020-09-28T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-29-github-actions-path">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-19-nuxt-netlify</id>
+      <title>Nuxt.js + Netlify でページを再読み込みすると CamelCase の URL がすべて LowerCase に変換されてしまう問題でハマった</title>
+      <link href="/2020-08-19-nuxt-netlify"/>
+      <updated>2020-08-18T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-19-nuxt-netlify">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-21-fast-notion-toggle</id>
+      <title>Fast Notion でトグル内にメモを保存する方法</title>
+      <link href="/2020-06-21-fast-notion-toggle"/>
+      <updated>2020-06-20T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-21-fast-notion-toggle">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-14-object-ui</id>
+      <title>『オブジェクト指向 UI デザイン』を読んだ</title>
+      <link href="/2020-06-14-object-ui"/>
+      <updated>2020-06-13T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-14-object-ui">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-22-notion-meetup</id>
+      <title>Notion ミートアップに登壇してきました</title>
+      <link href="/2020-05-22-notion-meetup"/>
+      <updated>2020-05-21T15:00:00.102Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-22-notion-meetup">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-03-d-magazine</id>
+      <title>Dマガジンを契約した</title>
+      <link href="/2020-05-03-d-magazine"/>
+      <updated>2020-05-02T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-03-d-magazine">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-06-nuxt-firebase-auth</id>
+      <title>Nuxt.js + Firebase Authentication を用いた認証まとめ</title>
+      <link href="/2020-04-06-nuxt-firebase-auth"/>
+      <updated>2020-04-05T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-06-nuxt-firebase-auth">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-02-23-notion-tips</id>
+      <title>僕が Notion を使う上で意識している自分ルール 10 条</title>
+      <link href="/2020-02-23-notion-tips"/>
+      <updated>2020-02-22T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-02-23-notion-tips">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-02-04-lodash-import</id>
+      <title>Lodash は使う関数のみ import してファイルサイズを削減しよう</title>
+      <link href="/2020-02-04-lodash-import"/>
+      <updated>2020-02-03T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-02-04-lodash-import">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-30-notion-dry</id>
+      <title>Notion と DRY 原則</title>
+      <link href="/2020-01-30-notion-dry"/>
+      <updated>2020-01-29T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-30-notion-dry">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-10-vue-press-category</id>
+      <title>VuePress でカテゴリ一覧・タグ一覧ページを作成する</title>
+      <link href="/2020-01-10-vue-press-category"/>
+      <updated>2020-01-19T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-10-vue-press-category">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-11-03-inventory</id>
+      <title>棚卸し(2019 年 10 月)</title>
+      <link href="/2019-11-03-inventory"/>
+      <updated>2019-11-02T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-11-03-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-12-30-github-actions-ftp</id>
+      <title>GitHub Actions で Vue.js のビルドをして FTP サーバー経由で自動デプロイ</title>
+      <link href="/2019-12-30-github-actions-ftp"/>
+      <updated>2019-12-29T15:00:00.103Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-12-30-github-actions-ftp">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-04-13-fast-notion</id>
+      <title>Fast Notion v2.7.0 をリリースした（遅延実行モードの追加）</title>
+      <link href="/2021-04-13-fast-notion"/>
+      <updated>2021-04-12T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-04-13-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-02-splatoon2</id>
+      <title>スプラトゥーン2振り返り 2021年2月</title>
+      <link href="/2021-03-02-splatoon2"/>
+      <updated>2021-03-01T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-02-splatoon2">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-22-fast-notion-db-mode</id>
+      <title>Fast Notion にデータベース連携モードが実装されました</title>
+      <link href="/2021-02-22-fast-notion-db-mode"/>
+      <updated>2020-11-21T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-22-fast-notion-db-mode">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-02-zatsu</id>
+      <title>Clubhouse / note / Notion</title>
+      <link href="/2021-02-02-zatsu"/>
+      <updated>2020-11-21T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-02-zatsu">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-21-best-buy-2020</id>
+      <title>2020年 買ってよかったもの（ガジェット編）</title>
+      <link href="/2020-12-21-best-buy-2020"/>
+      <updated>2020-12-20T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-21-best-buy-2020">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-17-supple</id>
+      <title>クレアチン・ロディオラ ロセア</title>
+      <link href="/2020-10-17-supple"/>
+      <updated>2020-10-16T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-17-supple">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-13-happiness</id>
+      <title>「幸福学」を読んだ</title>
+      <link href="/2020-10-13-happiness"/>
+      <updated>2020-10-12T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-13-happiness">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-12-context-switch</id>
+      <title>ダークモードとライトモードで仕事とプライベートのコンテクストスイッチを切り替える</title>
+      <link href="/2020-10-12-context-switch"/>
+      <updated>2020-10-11T15:00:00.104Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-12-context-switch">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-05-notion-kanban</id>
+      <title>Notion のかんばんボードでプロジェクト管理・定期的な棚卸し</title>
+      <link href="/2020-10-05-notion-kanban"/>
+      <updated>2020-10-04T15:00:00.105Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-05-notion-kanban">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-03-splatoon</id>
+      <title>2020年9月 スプラトゥーン2</title>
+      <link href="/2020-10-03-splatoon"/>
+      <updated>2020-10-02T15:00:00.105Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-03-splatoon">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-22-magic-keyboard</id>
+      <title>iPad 用 Magic Keyboard を売った</title>
+      <link href="/2020-06-22-magic-keyboard"/>
+      <updated>2020-06-21T15:00:00.105Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-22-magic-keyboard">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-10-notion-blog-twitter-card</id>
+      <title>Notion Blog への Twitter Card の埋め込み【Notion Blog 徹底解説 #４】</title>
+      <link href="/2020-04-10-notion-blog-twitter-card"/>
+      <updated>2020-05-29T15:00:00.105Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-10-notion-blog-twitter-card">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-27-omusubi</id>
+      <title>「おむすびの転がる町 / panpanya」を読んだ</title>
+      <link href="/2020-04-27-omusubi"/>
+      <updated>2020-04-26T15:00:00.105Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-27-omusubi">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-03-firebase-bug</id>
+      <title>Cloud Functions のコールドスタート問題でハマった（Error: Could not load the default credentials. ）</title>
+      <link href="/2020-01-03-firebase-bug"/>
+      <updated>2020-01-02T15:00:00.105Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-03-firebase-bug">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-12-29-catarina-to-mojave</id>
+      <title>MacOS Catalina から Mojave にダウングレードした</title>
+      <link href="/2019-12-29-catarina-to-mojave"/>
+      <updated>2019-12-28T15:00:00.106Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-12-29-catarina-to-mojave">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-12-06-subscribed-service</id>
+      <title>2019 年 お金を払っている購読型サービス</title>
+      <link href="/2019-12-06-subscribed-service"/>
+      <updated>2019-12-05T15:00:00.106Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-12-06-subscribed-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-09-09-firebase-cron</id>
+      <title>Firebase だけで cron が実行できるようになったので Twitter bot を作ってみた</title>
+      <link href="/2019-09-09-firebase-cron"/>
+      <updated>2019-09-08T15:00:00.106Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-09-09-firebase-cron">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-03-26-my-desk</id>
+      <title>デスク環境（2021年3月）</title>
+      <link href="/2021-03-26-my-desk"/>
+      <updated>2021-03-25T15:00:00.106Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-03-26-my-desk">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-05-firebase-hosting-disabled</id>
+      <title>Firebase Hosting で一度デプロイしたページを削除する</title>
+      <link href="/2021-02-05-firebase-hosting-disabled"/>
+      <updated>2021-02-04T15:00:00.106Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-05-firebase-hosting-disabled">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-21-copy-vs-code-setting</id>
+      <title>VS Code の設定移行方法 2020</title>
+      <link href="/2020-11-21-copy-vs-code-setting"/>
+      <updated>2020-11-20T15:00:00.106Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-21-copy-vs-code-setting">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-01-chain-saw-man</id>
+      <title>チェンソーマンを一気読みした</title>
+      <link href="/2020-11-01-chain-saw-man"/>
+      <updated>2020-10-31T15:00:00.107Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-01-chain-saw-man">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-25-issue-driven</id>
+      <title>「イシューからはじめよ」を再読した。社会人1~3年目の方にオススメ。</title>
+      <link href="/2020-09-25-issue-driven"/>
+      <updated>2020-09-24T15:00:00.107Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-25-issue-driven">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-19-profile</id>
+      <title>円谷 雄二（Yuji Tsuburaya | @___35d）のプロフィール</title>
+      <link href="/2020-09-19-profile"/>
+      <updated>2020-09-18T15:00:00.107Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-19-profile">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-18-notion-template</id>
+      <title>定例ミーティングを行うときの議事録は Notion のテンプレート機能を使うのがオススメ</title>
+      <link href="/2020-09-18-notion-template"/>
+      <updated>2020-09-19T15:00:00.107Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-18-notion-template">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-27-niplux</id>
+      <title>首のマッサージャーを購入した</title>
+      <link href="/2020-08-27-niplux"/>
+      <updated>2020-08-26T15:00:00.107Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-27-niplux">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-24-nuxt-css-variables</id>
+      <title>Vue.js で CSS 変数を使用する（Composition API サンプルコードあり）</title>
+      <link href="/2020-08-24-nuxt-css-variables"/>
+      <updated>2020-08-23T15:00:00.107Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-24-nuxt-css-variables">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-09-neko-suteru</id>
+      <title>村上春樹「猫を棄てる」を読んだ</title>
+      <link href="/2020-07-09-neko-suteru"/>
+      <updated>2020-07-08T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-09-neko-suteru">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-04-maeda-san</id>
+      <title>前田裕二さんメッチャ人当たり良くてビビった（動画を観た）</title>
+      <link href="/2020-07-04-maeda-san"/>
+      <updated>2020-07-03T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-04-maeda-san">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-03-figma-ninja</id>
+      <title>Figma の操作方法とショートカットを覚えるのに Figma Ninja が良さそう</title>
+      <link href="/2020-07-03-figma-ninja"/>
+      <updated>2020-07-02T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-03-figma-ninja">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-04-notion-blog-adsense</id>
+      <title>Notion Blog に Google Adsense を導入する【Notion Blog 徹底解説 #5】</title>
+      <link href="/2020-06-04-notion-blog-adsense"/>
+      <updated>2020-06-03T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-04-notion-blog-adsense">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-30-fast-notion-matome</id>
+      <title>Fast Notion 開発日記まとめ</title>
+      <link href="/2020-06-30-fast-notion-matome"/>
+      <updated>2020-06-29T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-30-fast-notion-matome">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-11-typescript</id>
+      <title>TypeScript の勉強を始めた</title>
+      <link href="/2020-03-11-typescript"/>
+      <updated>2020-03-10T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-11-typescript">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-06-inventory</id>
+      <title>棚卸し(2020 年 3 月)</title>
+      <link href="/2020-03-06-inventory"/>
+      <updated>2020-03-05T15:00:00.108Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-06-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-10-01-react-native-layout-animation</id>
+      <title>React Native の LayoutAnimation を使ったアニメーションが簡単で便利</title>
+      <link href="/2018-10-01-react-native-layout-animation"/>
+      <updated>2018-09-30T15:00:00.109Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-10-01-react-native-layout-animation">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-05-21-expo-app</id>
+      <title>Expo で作ったアプリを App Store Connect にアップロードするまで</title>
+      <link href="/2018-05-21-expo-app"/>
+      <updated>2018-05-20T15:00:00.109Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-05-21-expo-app">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-13-oura-ring</id>
+      <title>最強の健康管理デバイス Oura Ring を購入した</title>
+      <link href="/2021-02-13-oura-ring"/>
+      <updated>2021-02-12T15:00:00.109Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-13-oura-ring">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-01-splatoon</id>
+      <title>スプラトゥーン2振り返り 2021年1月</title>
+      <link href="/2021-02-01-splatoon"/>
+      <updated>2021-01-01T15:00:00.109Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-01-splatoon">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-26-sns</id>
+      <title>フォロワー数を KPI にするのはナンセンス？「僕らは SNS でモノを買う」を読んだ</title>
+      <link href="/2020-12-26-sns"/>
+      <updated>2020-12-24T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-26-sns">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-06-xcode12-simulator</id>
+      <title>Xcode12 で iOS13 のシミュレータを起動しようとするとエラーになる（未解決）</title>
+      <link href="/2020-12-06-xcode12-simulator"/>
+      <updated>2020-12-05T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-06-xcode12-simulator">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-23-iphone-screen</id>
+      <title>iPhone ホーム画面晒し 2020年11月</title>
+      <link href="/2020-11-23-iphone-screen"/>
+      <updated>2020-11-21T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-23-iphone-screen">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-22-notion-blog-adsense</id>
+      <title>Notion Blog で記事ごとに Google Adsense の表示・非表示を切り替える【Notion Blog 徹底解説 #8】</title>
+      <link href="/2020-11-22-notion-blog-adsense"/>
+      <updated>2020-11-21T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-22-notion-blog-adsense">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-22-search-inside-yourself</id>
+      <title>「Search Inside Yourself」を読んだ</title>
+      <link href="/2020-11-22-search-inside-yourself"/>
+      <updated>2020-11-21T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-22-search-inside-yourself">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-22-zatsu</id>
+      <title>WordPress・鬼滅の刃・公開ブックマーク</title>
+      <link href="/2020-10-22-zatsu"/>
+      <updated>2020-10-21T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-22-zatsu">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-06-react-navigation-route-view</id>
+      <title>React Navigation でデフォルトのビューを設定する</title>
+      <link href="/2020-09-06-react-navigation-route-view"/>
+      <updated>2020-09-05T15:00:00.110Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-06-react-navigation-route-view">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-03-notion-daily-log-page</id>
+      <title>Notion で9月分のデイリーログページを作成した（タスク管理のフローの紹介）</title>
+      <link href="/2020-09-03-notion-daily-log-page"/>
+      <updated>2020-09-02T15:00:00.111Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-03-notion-daily-log-page">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-24-fast-notion</id>
+      <title>Fast Notion のインストール数が 3,000 を超えた</title>
+      <link href="/2020-08-24-fast-notion"/>
+      <updated>2020-08-23T15:00:00.111Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-24-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-27-notion-company</id>
+      <title>Notion を企業で運用するときにやるべきこと3選</title>
+      <link href="/2020-07-27-notion-company"/>
+      <updated>2020-07-23T15:00:00.111Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-27-notion-company">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-12-notion-blog-dark-theme</id>
+      <title>Notion Blog のダークテーマ対応をした</title>
+      <link href="/2020-07-12-notion-blog-dark-theme"/>
+      <updated>2020-07-11T15:00:00.111Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-12-notion-blog-dark-theme">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-04-ux-design</id>
+      <title>「ついやってしまう体験のつくりかた」を読んだ</title>
+      <link href="/2020-07-04-ux-design"/>
+      <updated>2020-07-03T15:00:00.111Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-04-ux-design">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-02-11-tax-return</id>
+      <title>確定申告（2020年度版）</title>
+      <link href="/2021-02-11-tax-return"/>
+      <updated>2021-02-10T15:00:00.111Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-02-11-tax-return">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-09-buy</id>
+      <title>キョンセーム / room&apos;s ルームスリッパ / 加重ブランケット</title>
+      <link href="/2021-01-09-buy"/>
+      <updated>2021-01-08T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-09-buy">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-01-alfred</id>
+      <title>Alfred に課金した（Clipy を捨てた）</title>
+      <link href="/2021-01-01-alfred"/>
+      <updated>2020-12-31T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-01-alfred">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-15-fast-notion-release</id>
+      <title>Fast Notion v2.4 をリリースした（履歴保存機能の追加）</title>
+      <link href="/2020-12-15-fast-notion-release"/>
+      <updated>2020-11-21T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-15-fast-notion-release">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-07-fast-notion</id>
+      <title>Fast Notion のユニット数が 4,000 を超えた</title>
+      <link href="/2020-12-07-fast-notion"/>
+      <updated>2020-12-06T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-07-fast-notion">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-24-reading</id>
+      <title>「探究型読書」を読んだ</title>
+      <link href="/2020-11-24-reading"/>
+      <updated>2020-11-21T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-24-reading">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-09-splatoon</id>
+      <title>2020年10月 スプラトゥーン2</title>
+      <link href="/2020-11-09-splatoon"/>
+      <updated>2020-11-08T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-09-splatoon">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-18-contentful-github-actions</id>
+      <title>Contentful + Github Actions のトークン設定でハマった</title>
+      <link href="/2020-10-18-contentful-github-actions"/>
+      <updated>2020-10-17T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-18-contentful-github-actions">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-23-specifically-abstract</id>
+      <title>「具体と抽象」を再読した。この本、意外とエンジニアにオススメ。</title>
+      <link href="/2020-09-23-specifically-abstract"/>
+      <updated>2020-09-22T15:00:00.112Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-23-specifically-abstract">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-28-biisihiki</id>
+      <title>「世界のエリートはなぜ美意識を鍛えるのか（漫画版）」を読んだ</title>
+      <link href="/2020-08-28-biisihiki"/>
+      <updated>2020-08-27T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-28-biisihiki">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-18-nuxt-jest</id>
+      <title>Nuxt.js の Plugin 内で Vuex Action を実行する / inject する / inject したものの型定義する / Jest でうまく Mock して Action のテストをする、、、そのへんの覚書</title>
+      <link href="/2020-06-18-nuxt-jest"/>
+      <updated>2020-06-17T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-18-nuxt-jest">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-30-expo-ios</id>
+      <title>Expo で作成した iOS アプリを App Store に提出するまでの流れ【2020年版】</title>
+      <link href="/2020-03-30-expo-ios"/>
+      <updated>2020-03-29T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-30-expo-ios">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-02-08-notion-meetup</id>
+      <title>Notion ミートアップ第 7 回に参加してきた</title>
+      <link href="/2020-02-08-notion-meetup"/>
+      <updated>2020-02-07T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-02-08-notion-meetup">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-22-notion-company</id>
+      <title>Notion を企業のタスク・ドキュメント管理ツールとして運用する</title>
+      <link href="/2020-01-22-notion-company"/>
+      <updated>2020-01-21T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-22-notion-company">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-05-25-heroku-onamae</id>
+      <title>Heroku + お名前ドットコム で SSL 通信を行う</title>
+      <link href="/2018-05-25-heroku-onamae"/>
+      <updated>2018-05-04T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-05-25-heroku-onamae">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-30-github-package-registry</id>
+      <title>GitHub Package Registry にパッケージを公開する</title>
+      <link href="/2021-01-30-github-package-registry"/>
+      <updated>2021-01-29T15:00:00.113Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-30-github-package-registry">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-23-m1-homebrew</id>
+      <title>M1 チップ搭載の新型 Mac に homebrew をインストールする（Rosetta 経由暫定対応 2020年11月）</title>
+      <link href="/2020-11-23-m1-homebrew"/>
+      <updated>2020-11-22T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-23-m1-homebrew">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-21-mac-initial-setting</id>
+      <title>Mac の初期設定 2020</title>
+      <link href="/2020-11-21-mac-initial-setting"/>
+      <updated>2020-11-20T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-21-mac-initial-setting">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-27-notion-stock-article</id>
+      <title>Notion にストックした記事を、このサイト上で公開できる仕組みを作った</title>
+      <link href="/2020-10-27-notion-stock-article"/>
+      <updated>2020-10-26T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-27-notion-stock-article">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-14-notion-blog-medium-zoom</id>
+      <title>Notion Blog に Medium っぽい画像ズーム機能を導入する（Next.js / react-medium-image-zoom）【Notion Blog 徹底解説 #7】</title>
+      <link href="/2020-09-14-notion-blog-medium-zoom"/>
+      <updated>2020-09-13T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-14-notion-blog-medium-zoom">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-30-notion-matome</id>
+      <title>（2021/01/14 更新）このブログで紹介した Notion の使い方まとめ（企業事例・プライベート事例）</title>
+      <link href="/2020-06-30-notion-matome"/>
+      <updated>2020-06-29T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-30-notion-matome">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-30-cable-holder</id>
+      <title>デスクのケーブル類をケーブルホルダーにまとめる</title>
+      <link href="/2020-04-30-cable-holder"/>
+      <updated>2020-04-29T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-30-cable-holder">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-25-notion-use</id>
+      <title>僕の Notion の使い方（2020年4月 ToDo 管理 / 情報ストック / ブログ...）</title>
+      <link href="/2020-04-25-notion-use"/>
+      <updated>2020-04-24T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-25-notion-use">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-22-pc-stand</id>
+      <title>PC スタンドを購入した</title>
+      <link href="/2020-04-22-pc-stand"/>
+      <updated>2020-04-21T15:00:00.114Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-22-pc-stand">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-03-24-mujirushi</id>
+      <title>無印良品で、下着・靴下のまとめ買いをした</title>
+      <link href="/2020-03-24-mujirushi"/>
+      <updated>2020-03-23T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-03-24-mujirushi">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-10-google-adsense-vue-press</id>
+      <title>VuePress で作ったブログに Google Adsense を導入する</title>
+      <link href="/2020-01-10-google-adsense-vue-press"/>
+      <updated>2020-01-09T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-10-google-adsense-vue-press">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-07-23-inventory</id>
+      <title>棚卸し(2019 年 7 月)</title>
+      <link href="/2019-07-23-inventory"/>
+      <updated>2019-07-22T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-07-23-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-12-31-dekita</id>
+      <title>2018年 できたこと・できなかったこと</title>
+      <link href="/2018-12-31-dekita"/>
+      <updated>2018-12-30T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-12-31-dekita">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-22-hooked</id>
+      <title>「Hooked ハマるしかけ」を読んだ</title>
+      <link href="/2021-01-22-hooked"/>
+      <updated>2021-01-21T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-22-hooked">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2021-01-04-react-suspense-next-js</id>
+      <title>Next.js で React.Suspense を使った時の ReactDOMServer does not yet support Suspense エラーが出た</title>
+      <link href="/2021-01-04-react-suspense-next-js"/>
+      <updated>2021-01-03T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2021-01-04-react-suspense-next-js">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-09-how-to-reading</id>
+      <title>本の読み方 2020</title>
+      <link href="/2020-11-09-how-to-reading"/>
+      <updated>2020-11-08T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-09-how-to-reading">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-12-ccc-book</id>
+      <title>「知的資本論」を読んだ</title>
+      <link href="/2020-09-12-ccc-book"/>
+      <updated>2020-09-11T15:00:00.115Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-12-ccc-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-20-nuxt-child</id>
+      <title>Nuxt.js の nuxt-child を使って、Asana のような2カラムレイアウトUIを構築する</title>
+      <link href="/2020-08-20-nuxt-child"/>
+      <updated>2020-08-19T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-20-nuxt-child">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-26-satechi</id>
+      <title>Satechi の USB ハブを購入した</title>
+      <link href="/2020-07-26-satechi"/>
+      <updated>2020-07-25T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-26-satechi">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-10-notion-daily-log</id>
+      <title>Notion のデイリーログページの構成を変更した（2020年5月）</title>
+      <link href="/2020-05-10-notion-daily-log"/>
+      <updated>2020-05-09T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-10-notion-daily-log">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-19-json-server</id>
+      <title>json-server で、エンドポイントごとに json ファイルを分割する</title>
+      <link href="/2020-04-19-json-server"/>
+      <updated>2020-04-18T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-19-json-server">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-02-iphone-home</id>
+      <title>iPhone ホーム画面晒し 2020年1月</title>
+      <link href="/2020-01-02-iphone-home"/>
+      <updated>2020-01-01T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-02-iphone-home">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2018-10-18-lottie-react-native</id>
+      <title>React Native でアニメーションを実現するなら lottie-react-native で決まり</title>
+      <link href="/2018-10-18-lottie-react-native"/>
+      <updated>2018-10-17T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2018-10-18-lottie-react-native">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-12-20-close-web-service</id>
+      <title>昔作ったサービスをクローズした</title>
+      <link href="/2020-12-20-close-web-service"/>
+      <updated>2020-12-19T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-12-20-close-web-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-11-08-expo-next-monorepo</id>
+      <title>モノレポ構成で Expo を導入したときのハマりポイントまとめ</title>
+      <link href="/2020-11-08-expo-next-monorepo"/>
+      <updated>2020-11-07T15:00:00.116Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-11-08-expo-next-monorepo">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-10-27-manabu-book</id>
+      <title>「億を稼ぐ積み上げ力」を読んだ</title>
+      <link href="/2020-10-27-manabu-book"/>
+      <updated>2020-10-26T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-10-27-manabu-book">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-09-16-concentration</id>
+      <title>「ハーバード・ビジネス・レビュー『集中力』」を読んだ。</title>
+      <link href="/2020-09-16-concentration"/>
+      <updated>2020-09-15T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-09-16-concentration">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-08-12-fast-notion-release</id>
+      <title>Fast Notion v2.1 をリリースした（Pro Plan の追加 / URL 設定数無制限に / Post ボタンの位置設定 / 細かいバグ修正）</title>
+      <link href="/2020-08-12-fast-notion-release"/>
+      <updated>2020-08-11T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-08-12-fast-notion-release">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-07-11</id>
+      <title>Notion Blog でローカル開発環境を構築する【Notion Blog 徹底解説 #7】</title>
+      <link href="/2020-07-11"/>
+      <updated>2020-07-10T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-07-11">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-25-usui-wallet</id>
+      <title>大学時代から5年間使っていた薄い財布を修理に出した</title>
+      <link href="/2020-06-25-usui-wallet"/>
+      <updated>2020-06-24T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-25-usui-wallet">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-09-subscribed-service</id>
+      <title>2020年上半期お金を払っている購読型（サブスク）サービス</title>
+      <link href="/2020-06-09-subscribed-service"/>
+      <updated>2020-06-08T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-09-subscribed-service">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-06-03-inventory</id>
+      <title>棚卸し（2020年6月）</title>
+      <link href="/2020-06-03-inventory"/>
+      <updated>2020-06-02T15:00:00.117Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-06-03-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-05-24-notion-blog-2</id>
+      <title>Notion Blog に独自ドメインを当てる（Vercel (旧 Zeit Now) + お名前.com）【Notion Blog 徹底解説 #2】</title>
+      <link href="/2020-05-24-notion-blog-2"/>
+      <updated>2020-05-23T15:00:00.118Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-05-24-notion-blog-2">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-04-18-nuxt-jest-warning</id>
+      <title>Nuxt.js + jest でテスト実行時に出る警告を消したい</title>
+      <link href="/2020-04-18-nuxt-jest-warning"/>
+      <updated>2020-04-17T15:00:00.118Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-04-18-nuxt-jest-warning">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2020-01-28-babel-console</id>
+      <title>プロダクションビルド時に console.log を消す（Vue.js / Nuxt.js)</title>
+      <link href="/2020-01-28-babel-console"/>
+      <updated>2020-01-27T15:00:00.118Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2020-01-28-babel-console">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+    <entry>
+      <id>/2019-01-27-inventory</id>
+      <title>棚卸し(2019 年 1 月)</title>
+      <link href="/2019-01-27-inventory"/>
+      <updated>2019-01-26T15:00:00.118Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/2019-01-27-inventory">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Yuji Tsuburaya</name></author>
+    </entry>
+  </feed>
