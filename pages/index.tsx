@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
-import Container from '../components/Container'
 import Link from 'next/link'
 import { getNotionData } from '../lib/getNotionData'
+import Header from '../components/Header'
+import PostItem from '../components/PostItem'
+import BlockHeading from '../components/BlockHeading'
 
 export const useDarkMode = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
@@ -27,27 +28,29 @@ export const useDarkMode = () => {
 
 export default function Home({ posts }) {
   return (
-    <Container>
+    <>
+      <Header titlePre={`TOP`} ogImageUrl="https://blog.35d.jp/ogp/2021-01-06-01.jpg" />
       <div className="max-w-2xl mx-auto mb-16">
-        <h2 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 mt-8 text-black">SSS</h2>
-
         {!posts.length && <p className="text-gray-600 mb-4">No posts found.</p>}
 
-        {posts.map((post) => {
-          return (
-            <Link key={post.id} href={`/${post.properties.Slug.rich_text[0].plain_text}`}>
-              <a className="w-full">
-                <div className="mb-8 w-full">
-                  <h3 className="text-xl font-medium w-full text-gray-900">
-                    {post.properties.Page.title[0].plain_text}
-                  </h3>
-                </div>
-              </a>
+        <section className="mb-6">
+          <div className="mb-3">
+            <BlockHeading>最新の記事</BlockHeading>
+          </div>
+          <ul>
+            {posts.map((post, index) => {
+              if (index > 20) return
+              return <PostItem post={post} key={post.Slug + index} />
+            })}
+          </ul>
+          {/* <p>
+            <Link href="/posts">
+              <a className={'link'}>すべて見る</a>
             </Link>
-          )
-        })}
+          </p> */}
+        </section>
       </div>
-    </Container>
+    </>
   )
 }
 

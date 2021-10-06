@@ -2,27 +2,61 @@ import BlogLayout from '../layouts/BlogLayout'
 import { getNotionData, getPage, getBlocks } from '../lib/getNotionData'
 import { Text, ListItem, Heading, ToDo, Toggle } from '../components/ContentBlocks'
 import image from 'next/image'
+import Header from '../components/Header'
+import Heading1 from '../components/Heading1'
+import { getDateStr } from '../lib/helpers'
+import Tags from '../components/Tags'
+import NoteLink from '../components/NoteLink'
+import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
+// TODO
+type Post = any
+
 export default function Post({ page, blocks }) {
   if (!page || !blocks) {
-    return <div />
+    return <div>ページが存在しません</div>
   }
 
-  return (
-    <BlogLayout data={page} content={blocks}>
-      <span className="text-sm text-gray-700">
-        {new Date(page.created_time).toLocaleString('en-US', {
-          month: 'short',
-          day: '2-digit',
-          year: 'numeric',
-        })}
-      </span>
+  console.log(page.properties)
+  const tags = page.properties.Tag.multi_select.map((_) => _.name)
+  console.log(tags)
+  const date = page.properties.Date.date.start
 
-      <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-5 text-black">
-        {page.properties.Page.title[0].plain_text}
-      </h1>
+  return (
+    <>
+      <Header
+        titlePre={page.properties.Page.title[0].plain_text}
+        description={page.properties.Description.rich_text[0].plain_text}
+        ogImageUrl={page.properties.ogImageUrl.rich_text[0].plain_text}
+      />
+      <div className="mb-2">
+        <div className="mb-4">
+          <Heading1>{page.properties.Page.title[0].plain_text || ''}</Heading1>
+        </div>
+      </div>
+
+      <div>
+        <p className={'opacity-90 font-bold'}>
+          <span className="posted mr-2">
+            <span className="fs12 mr-2">📆</span>
+            {getDateStr(date)}
+          </span>
+          {tags && (
+            <span className="tag">
+              <span className="fs12 mr-2">🔖 </span>
+              <Tags tags={tags} />
+            </span>
+          )}
+        </p>
+      </div>
+      {/* note マガジンへの導線 */}
+      {tags.includes('Notion') && !tags.includes('Fast Notion') && (
+        <div className="mb16">
+          <NoteLink />
+        </div>
+      )}
 
       {blocks.map((block) => {
         const { type, id } = block
@@ -47,7 +81,7 @@ export default function Post({ page, blocks }) {
             return <ListItem key={id} text={value.text} id={id} />
 
           case 'to_do':
-            return <ToDo key={id} value={value} text={value.text} />
+            return <ToDo id={id} key={id} value={value} text={value.text} />
 
           case 'toggle':
             return <Toggle key={id} text={value.text} children={value.children} />
@@ -62,7 +96,8 @@ export default function Post({ page, blocks }) {
             })`
         }
       })}
-    </BlogLayout>
+      {/* <hr className="hr border-gray-300 dark:border-gray-400" /> */}
+    </>
   )
 }
 
