@@ -14,7 +14,7 @@ export const DarkModeContext = React.createContext({
   toggleDarkMode: undefined,
 })
 
-export default ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }) => {
   let defaultTheme
   if (process.browser) {
     defaultTheme = window.localStorage.getItem('35d_theme') || 'LIGHT'
@@ -43,3 +43,5 @@ export default ({ Component, pageProps }) => {
     </ThemeProvider>
   )
 }
+
+export default App

@@ -29,27 +29,22 @@ export const useDarkMode = () => {
 export default function Home({ posts }) {
   return (
     <>
-      <Header titlePre={`TOP`} ogImageUrl="https://blog.35d.jp/ogp/2021-01-06-01.jpg" />
+      <Header titlePre={`記事一覧`} ogImageUrl="https://blog.35d.jp/ogp/2021-01-06-01.jpg" />
       <div className="max-w-2xl mx-auto mb-16">
         {!posts.length && <p className="text-gray-600 mb-4">No posts found.</p>}
 
         <section className="mb-6">
           <div className="mb-3">
-            <BlockHeading>最新の記事</BlockHeading>
+            <BlockHeading>記事一覧</BlockHeading>
           </div>
           <ul>
             {posts.map((post, index) => {
-              if (index > 20) return
+              console.log(post.properties.Slug.rich_text[0]?.plain_text + index)
               return (
                 <PostItem post={post} key={post.properties.Slug.rich_text[0]?.plain_text + index} />
               )
             })}
           </ul>
-          {/* <p>
-            <Link href="/posts">
-              <a className={'link'}>すべて見る</a>
-            </Link>
-          </p> */}
         </section>
       </div>
     </>

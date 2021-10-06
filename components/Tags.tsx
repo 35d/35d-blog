@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const Tags = ({ tags }: { tags: string[] }) => {
-  console.log(tags)
   return (
     <>
       {tags.map((tag) => (

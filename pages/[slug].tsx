@@ -1,4 +1,3 @@
-import BlogLayout from '../layouts/BlogLayout'
 import { getNotionData, getPage, getBlocks } from '../lib/getNotionData'
 import { Text, ListItem, Heading, ToDo, Toggle } from '../components/ContentBlocks'
 import image from 'next/image'
@@ -7,7 +6,7 @@ import Heading1 from '../components/Heading1'
 import { getDateStr } from '../lib/helpers'
 import Tags from '../components/Tags'
 import NoteLink from '../components/NoteLink'
-import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
+// import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
@@ -19,21 +18,18 @@ export default function Post({ page, blocks }) {
     return <div>ページが存在しません</div>
   }
 
-  console.log(page.properties)
+  const title = page.properties.Page.title[0]?.plain_text
+  const description = page.properties.Description.rich_text[0]?.plain_text
+  const ogImageUrl = page.properties.ogImageUrl.rich_text[0]?.plain_text
   const tags = page.properties.Tag.multi_select.map((_) => _.name)
-  console.log(tags)
   const date = page.properties.Date.date.start
 
   return (
     <>
-      <Header
-        titlePre={page.properties.Page.title[0].plain_text}
-        description={page.properties.Description.rich_text[0].plain_text}
-        ogImageUrl={page.properties.ogImageUrl.rich_text[0].plain_text}
-      />
+      <Header titlePre={title} description={description} ogImageUrl={ogImageUrl} />
       <div className="mb-2">
         <div className="mb-4">
-          <Heading1>{page.properties.Page.title[0].plain_text || ''}</Heading1>
+          <Heading1>{title}</Heading1>
         </div>
       </div>
 
@@ -102,7 +98,8 @@ export default function Post({ page, blocks }) {
 }
 
 export const getStaticPaths = async () => {
-  const database = await getNotionData(databaseId)
+  // TODO
+  const database = (await getNotionData(databaseId)) as any
   return {
     paths: database.map((page) => ({
       params: {
@@ -115,7 +112,8 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { slug } = context.params
-  const database = await getNotionData(databaseId)
+  // TODO
+  const database = (await getNotionData(databaseId)) as any
   const filter = database.filter((blog) => blog.properties.Slug.rich_text[0].plain_text === slug)
   const page = await getPage(filter[0].id)
   const blocks = await getBlocks(filter[0].id)

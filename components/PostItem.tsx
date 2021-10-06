@@ -11,7 +11,7 @@ type Post = any
  */
 const PostItem = ({ post }: { post: Post }) => {
   return (
-    <li key={post.Slug} className="list-none">
+    <li className="list-none">
       <Link
         href="/[slug]"
         as={getBlogLink(post.properties.Slug.rich_text[0].plain_text)}
