@@ -100,12 +100,12 @@ export default function Post({ page, blocks }) {
             }
 
           default:
-            return `Unsupported block (${
-              type === 'unsupported' ? 'unsupported by Notion API' : type
-            })`
+            console.log(
+              `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
+            )
+            return <hr className="hr border-gray-300 dark:border-gray-400" />
         }
       })}
-      {/* <hr className="hr border-gray-300 dark:border-gray-400" /> */}
     </>
   )
 }
