@@ -1,6 +1,6 @@
 import { getNotionData, getPage, getBlocks } from '../lib/getNotionData'
 import { Text, ListItem, Heading, ToDo, Toggle } from '../components/ContentBlocks'
-import image from 'next/image'
+import { TwitterTweetEmbed } from 'react-twitter-embed'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
 import { getDateStr } from '../lib/helpers'
@@ -86,6 +86,19 @@ export default function Post({ page, blocks }) {
             // TODO コンポーネント化する
             return <img src={value.file.url} key={id} />
 
+          case 'embed':
+            if (value.url.includes('twitter.com')) {
+              const pos = value.url.indexOf('?')
+              let tweetId = value.url.substring(0, pos).split('/')[5]
+              if (!tweetId) {
+                tweetId = value.url.split('/')[5]
+              }
+
+              return (
+                <TwitterTweetEmbed key={id} tweetId={tweetId} options={{ margin: '0 auto;' }} />
+              )
+            }
+
           default:
             return `Unsupported block (${
               type === 'unsupported' ? 'unsupported by Notion API' : type
@@ -114,7 +127,7 @@ export const getStaticProps = async (context) => {
   const { slug } = context.params
 
   const database = await getNotionData(databaseId, {
-  or: [
+    or: [
       {
         property: 'Slug',
         text: {
