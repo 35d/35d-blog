@@ -1,6 +1,7 @@
 import BlogLayout from '../layouts/BlogLayout'
 import { getNotionData, getPage, getBlocks } from '../lib/getNotionData'
 import { Text, ListItem, Heading, ToDo, Toggle } from '../components/ContentBlocks'
+import image from 'next/image'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
@@ -30,6 +31,7 @@ export default function Post({ page, blocks }) {
 
         switch (type) {
           case 'paragraph':
+            // TODO Text を children 形式に変更
             return <Text text={value.text} id={id} key={id} />
 
           case 'heading_1':
@@ -50,6 +52,10 @@ export default function Post({ page, blocks }) {
 
           case 'toggle':
             return <Toggle key={id} text={value.text} children={value.children} />
+
+          case 'image':
+            // TODO コンポーネント化する
+            return <img src={value.file.url} key={id} />
 
           default:
             return `Unsupported block (${

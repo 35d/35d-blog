@@ -1,7 +1,6 @@
 import Container from '../components/Container'
 
 export default function BlogLayout({ children, data }) {
-  console.log(data.properties)
   return (
     <Container
       title={data.properties.Page.title[0].plain_text}
