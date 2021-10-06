@@ -114,7 +114,7 @@ export const getStaticProps = async (context) => {
   const { slug } = context.params
 
   const database = await getNotionData(databaseId, {
-    or: [
+  or: [
       {
         property: 'Slug',
         text: {

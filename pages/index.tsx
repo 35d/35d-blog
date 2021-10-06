@@ -45,11 +45,11 @@ export default function Home({ posts }) {
               )
             })}
           </ul>
-          {/* <p>
+          <p>
             <Link href="/posts">
               <a className={'link'}>すべて見る</a>
             </Link>
-          </p> */}
+          </p>
         </section>
       </div>
     </>

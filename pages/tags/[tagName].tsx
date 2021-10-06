@@ -2,9 +2,24 @@ import React from 'react'
 import BlockHeading from '../../components/BlockHeading'
 import Header from '../../components/Header'
 import PostItem from '../../components/PostItem'
+import { getNotionData } from '../../lib/getNotionData'
 import { getBlogTagLink, postIsReady } from '../../lib/helpers'
 
+const databaseId = process.env.NOTION_DATABASE_ID
+
 export async function getStaticProps({ params: { tagName } }) {
+  console.log(tagName)
+
+  const database = await getNotionData(databaseId, {
+    or: [
+      {
+        property: 'Tag',
+        multi_select: {
+          contains: tagName,
+        },
+      },
+    ],
+  })
   // const postsTable = await getBlogIndex()
 
   // let posts: any[] = Object.keys(postsTable)
@@ -33,7 +48,7 @@ export async function getStaticProps({ params: { tagName } }) {
 
   return {
     props: {
-      posts: [],
+      posts: database,
       tagName: tagName,
     },
     revalidate: 600,
@@ -42,25 +57,31 @@ export async function getStaticProps({ params: { tagName } }) {
 
 // Return our list of blog posts to prerender
 export async function getStaticPaths() {
-  // const postsTable = await getBlogIndex()
-  // let TagArray = []
-  // let duplicateTagArray = []
+  // データベースのすべてのデータを取得する
+  const database = await getNotionData(databaseId)
 
-  // Object.values(postsTable).map((post: any) => {
-  //   const tag = post.Tag // IFTTT,Slack,...
-  //   if (tag) {
-  //     duplicateTagArray = duplicateTagArray.concat(tag.split(','))
-  //   }
-  // })
+  // 重複込みでタグのデータを詰めた配列['IFTTT', 'Slack', 'IFTTT', ...]
+  let duplicateTagArray = []
+  let tagArray = [] // 重複削除
+
+  database.forEach((page) => {
+    duplicateTagArray = duplicateTagArray.concat(
+      page.properties.Tag.multi_select.map((tag) => tag.name)
+    )
+  })
 
   // // 重複排除
-  // TagArray = duplicateTagArray.filter(function (x, i, self) {
-  //   return self.indexOf(x) === i
-  // })
+  tagArray = duplicateTagArray.filter(function (x, i, self) {
+    return self.indexOf(x) === i
+  })
 
   return {
-    paths: [].map((tag) => getBlogTagLink(tag)),
-    fallback: true,
+    paths: tagArray.map((tag) => ({
+      params: {
+        tagName: tag,
+      },
+    })),
+    fallback: false,
   }
 }
 
@@ -72,14 +93,13 @@ const RenderPost = ({ posts = [], tagName = '' }) => {
         <div className={'mb-2'}>
           <BlockHeading>
             {posts.length === 0
-              ? // ? `${tagName} が含まれる記事はありません`
-                `TODO 再実装中……`
+              ? `${tagName} が含まれる記事はありません`
               : `${tagName} が含まれる記事一覧`}
           </BlockHeading>
         </div>
         <ul>
-          {posts.map((post) => (
-            <PostItem post={post} />
+          {posts.map((post, index) => (
+            <PostItem post={post} key={post.properties.Slug.rich_text[0]?.plain_text + index} />
           ))}
         </ul>
       </div>
