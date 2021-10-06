@@ -6,15 +6,13 @@ const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 })
 
-export const getNotionData = async (databaseId) => {
+export const getNotionData = async (databaseId: string, filter: any = undefined) => {
   let results = []
   let hasMore = true // 再帰フェッチ用フラグ
   let cursor // 再帰フェッチ用フラグ
 
   //
   while (hasMore) {
-    sleep(500) // API 制限によって調整
-
     const response = await notion.databases.query({
       database_id: databaseId,
       // Sort posts in descending order based on the Date column.
@@ -25,6 +23,7 @@ export const getNotionData = async (databaseId) => {
         },
       ],
       start_cursor: cursor,
+      filter,
     })
     results = results.concat(response.results)
     hasMore = response.has_more

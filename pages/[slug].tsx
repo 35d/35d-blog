@@ -98,8 +98,8 @@ export default function Post({ page, blocks }) {
 }
 
 export const getStaticPaths = async () => {
-  // TODO
-  const database = (await getNotionData(databaseId)) as any
+  // データベースのすべてのデータを取得する
+  const database = await getNotionData(databaseId)
   return {
     paths: database.map((page) => ({
       params: {
@@ -112,11 +112,20 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { slug } = context.params
-  // TODO
-  const database = (await getNotionData(databaseId)) as any
-  const filter = database.filter((blog) => blog.properties.Slug.rich_text[0].plain_text === slug)
-  const page = await getPage(filter[0].id)
-  const blocks = await getBlocks(filter[0].id)
+
+  const database = await getNotionData(databaseId, {
+    or: [
+      {
+        property: 'Slug',
+        text: {
+          equals: slug,
+        },
+      },
+    ],
+  })
+
+  const page = await getPage(database[0].id)
+  const blocks = await getBlocks(database[0].id)
 
   const childrenBlocks = await Promise.all(
     blocks
