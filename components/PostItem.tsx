@@ -39,7 +39,7 @@ export const ListItem = ({ url, title, subTitle, isExtLink }) => {
             </a>
           </ExtLink>
         ) : (
-          <Link href={url} as={url} prefetch={false}>
+          <Link href={url}>
             <a className="no-underline font-medium hover:bg-gray-300 dark:hover:bg-gray-900">
               <span>{title}</span>
             </a>

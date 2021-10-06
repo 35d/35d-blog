@@ -39,7 +39,6 @@ export default function Home({ posts }) {
           </div>
           <ul>
             {posts.map((post, index) => {
-              console.log(post.properties.Slug.rich_text[0]?.plain_text + index)
               return (
                 <PostItem post={post} key={post.properties.Slug.rich_text[0]?.plain_text + index} />
               )
