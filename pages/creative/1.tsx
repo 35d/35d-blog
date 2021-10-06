@@ -1,4 +1,4 @@
-import Code from '../../components/code'
+import Code from '../../components/Code'
 // import Outline from '../../components/creative/outline'
 // import Header from '../../components/header'
 

@@ -6,7 +6,7 @@ import Heading1 from '../components/Heading1'
 import { getDateStr } from '../lib/helpers'
 import Tags from '../components/Tags'
 import NoteLink from '../components/NoteLink'
-import Code from '../components/code'
+import Code from '../components/Code'
 // import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
