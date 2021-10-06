@@ -33,10 +33,11 @@ export const ListItem = ({ url, title, subTitle, isExtLink }) => {
     <li className="list-none">
       {url ? (
         isExtLink ? (
-          <ExtLink href={url} className={'no-underline'}>
-            <a className="no-underline font-medium hover:bg-gray-300 dark:hover:bg-gray-900">
-              <span>{title}</span>
-            </a>
+          <ExtLink
+            href={url}
+            className={'no-underline font-medium hover:bg-gray-300 dark:hover:bg-gray-900'}
+          >
+            <span>{title}</span>
           </ExtLink>
         ) : (
           <Link href={url}>

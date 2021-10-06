@@ -5,7 +5,7 @@ import { ListItem } from '../components/PostItem'
 import BlockHeading from '../components/BlockHeading'
 import { getNotionData } from '../lib/getNotionData'
 
-const LINK = '2020-10-27-notion-stock-article'
+const LINK = '/2020-10-27-notion-stock-article'
 const ID = '93082d8d4b424ac8b67bfa7d4a37e633'
 
 export async function getStaticProps() {
