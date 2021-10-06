@@ -10,7 +10,9 @@ const SpanText = ({ text, id }) => {
         key={id + i}
         className={[
           bold ? 'font-bold' : '',
-          code ? 'bg-gray-100 p-1 font-mono text-sm rounded-md' : '',
+          code
+            ? 'text-gray-900 bg-gray-300 dark:bg-gray-900 dark:text-gray-200 p-1 font-mono text-sm rounded-sm'
+            : '',
           italic ? 'italic' : '',
           strikethrough ? 'line-through' : '',
           underline ? 'underline' : '',

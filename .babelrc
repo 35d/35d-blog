@@ -1,0 +1,33 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    [
+      "prismjs",
+      {
+        "languages": [
+          "javascript",
+          "css",
+          "html",
+          "bash",
+          "yaml",
+          "jsx",
+          "json"
+        ],
+        "plugins": [
+          "line-numbers",
+          "show-language"
+        ],
+        "theme": "okaidia",
+        "css": true
+      }
+    ]
+  ]
+}

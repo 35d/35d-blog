@@ -6,6 +6,7 @@ import Heading1 from '../components/Heading1'
 import { getDateStr } from '../lib/helpers'
 import Tags from '../components/Tags'
 import NoteLink from '../components/NoteLink'
+import Code from '../components/code'
 // import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
@@ -98,6 +99,13 @@ export default function Post({ page, blocks }) {
                 <TwitterTweetEmbed key={id} tweetId={tweetId} options={{ margin: '0 auto;' }} />
               )
             }
+
+          case 'code':
+            return (
+              <Code key={id} language={value.language}>
+                {value.text[0]?.plain_text}
+              </Code>
+            )
 
           default:
             console.log(
