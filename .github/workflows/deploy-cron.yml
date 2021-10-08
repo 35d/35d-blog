@@ -17,8 +17,8 @@ jobs:
       - name: Recreate all posts
         shell: bash
         run: |
-          npm install
-          npm run build
+          yarn
+          yarn build
       - uses: amondnet/vercel-action@v20
         with:
           # GitHub Actions の Secrets で作成した値を参照する形で
