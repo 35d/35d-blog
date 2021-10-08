@@ -29,7 +29,7 @@ export const useDarkMode = () => {
 export default function Home({ posts }) {
   return (
     <>
-      <Header titlePre={`TOP`} ogImageUrl="https://blog.35d.jp/ogp/2021-01-06-01.jpg" />
+      <Header titlePre={`TOP`} ogImageUrl="https://blog.35d.jp/og-image.png" />
       <div className="max-w-2xl mx-auto mb-16">
         {!posts.length && <p className="text-gray-600 mb-4">No posts found.</p>}
 
