@@ -18,7 +18,7 @@ jobs:
         shell: bash
         run: |
           yarn
-          yarn build --NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }} --NOTION_TOKEN=${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }} NOTION_TOKEN=${{ secrets.NOTION_TOKEN }} yarn build
       - uses: amondnet/vercel-action@v20
         with:
           # GitHub Actions の Secrets で作成した値を参照する形で
