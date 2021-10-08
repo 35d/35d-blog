@@ -8,10 +8,6 @@
     "url": "https://luciovilla.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luciovilla/notion-nextjs-blog.git"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
