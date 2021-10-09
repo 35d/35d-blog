@@ -34,14 +34,16 @@ export const normalizeSlug = (slug) => {
   return startingSlash || endingSlash ? normalizeSlug(slug) : slug
 }
 
-export const getCaptionStr = (caption) => {
+export const getCaptionStr = (caption: TODO[]): string | undefined => {
   if (!caption) return undefined
-  return caption[0][0].split(' | ')[0]
+  if (caption.length === 0) return undefined
+  return caption[0].plain_text.split(' | ')[0]
 }
 
-export const getAltStr = (caption) => {
+export const getAltStr = (caption: TODO[]) => {
   if (!caption) return undefined
-  return caption[0][0].split(' | ')[1]
+  if (caption.length === 0) return undefined
+  return caption[0].plain_text.split(' | ')[1]
 }
 
 /**

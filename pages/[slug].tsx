@@ -3,7 +3,7 @@ import { Text, ListItem, Heading, ToDo, Toggle } from '../components/ContentBloc
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
-import { getDateStr } from '../lib/helpers'
+import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
 import Tags from '../components/Tags'
 import NoteLink from '../components/NoteLink'
 import Code from '../components/Code'
@@ -84,8 +84,12 @@ export default function Post({ page, blocks }) {
             return <Toggle key={id} text={value.text} children={value.children} />
 
           case 'image':
-            // TODO コンポーネント化する
-            return <img src={value.file.url} key={id} />
+            return (
+              <figure key={id}>
+                <img src={value.file.url} alt={getAltStr(value.caption)} className={'mb-2'} />
+                <figcaption>{getCaptionStr(value.caption)}</figcaption>
+              </figure>
+            )
 
           case 'embed':
             if (value.url.includes('twitter.com')) {
@@ -111,7 +115,7 @@ export default function Post({ page, blocks }) {
             console.log(
               `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
             )
-            return <hr className="hr border-gray-300 dark:border-gray-400" />
+            return <hr key={id} className="hr border-gray-300 dark:border-gray-400" />
         }
       })}
     </>
@@ -120,6 +124,7 @@ export default function Post({ page, blocks }) {
 
 export const getStaticPaths = async () => {
   // データベースのすべてのデータを取得する
+  // Slug のパスを静的に生成するのに必要
   const database = await getNotionData(databaseId)
   return {
     paths: database.map((page) => ({
@@ -145,7 +150,10 @@ export const getStaticProps = async (context) => {
     ],
   })
 
+  // ページのメタデータを取得する
   const page = await getPage(database[0].id)
+  
+  // ページの本文を取得する
   const blocks = await getBlocks(database[0].id)
 
   const childrenBlocks = await Promise.all(
