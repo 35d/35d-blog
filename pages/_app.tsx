@@ -6,6 +6,7 @@ import '../styles.css'
 import Navigation from '../components/Navigation'
 import { darkTheme, lightTheme } from '../constants/Theme'
 import * as gtag from '../lib/gtag'
+import Footer from '../components/Footer'
 
 Router.events.on('routeChangeComplete', (url) => gtag.pageview(url))
 
@@ -34,9 +35,10 @@ const App = ({ Component, pageProps }) => {
         <DarkModeContext.Provider value={{ theme, toggleDarkMode }}>
           <div className="w-full max-w-3xl mx-auto flex flex-wrap items-start overflow-hidden">
             <Navigation />
-            <main className="w-full sm:w-3/4 sm:-mt-1 ml-0 sm:ml-1/4">
+            <main className="w-full sm:w-3/4 sm:-mt-1 ml-0 sm:ml-1/4 min-h-screen">
               <Component {...pageProps} className="w-full sm:w-3/4 sm:-mt-1 ml-0 sm:ml-1/4" />
             </main>
+            <Footer />
           </div>
         </DarkModeContext.Provider>
       </>
