@@ -9,3 +9,6 @@
 
 # デプロイする場合
 - ビルドするサービス（GitHub Actions や Vercel）にも同じく環境変数をセットすること
+
+# 投げ銭
+https://buy.stripe.com/8wM8Addc9e6N9JSaEE
