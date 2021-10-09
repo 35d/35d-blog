@@ -63,7 +63,6 @@ export const getBlocks = async (blockId) => {
     console.log('.')
   }
 
-  console.log(results)
   console.log('👌 getBlocks, fetch done')
   return results
 }

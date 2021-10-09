@@ -39,7 +39,7 @@ export default function Home({ posts }) {
           </div>
           <ul>
             {posts.map((post, index) => {
-              if (index > 20) return
+              if (index > 10) return
               return (
                 <PostItem post={post} key={post.properties.Slug.rich_text[0]?.plain_text + index} />
               )

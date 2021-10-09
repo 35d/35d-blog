@@ -1,4 +1,5 @@
 import Code from '../../components/Code'
+import NoteLink from '../../components/NoteLink'
 // import Outline from '../../components/creative/outline'
 // import Header from '../../components/header'
 
@@ -14,6 +15,7 @@ const a = () => {
         console.log('@@@'); console.log('@@@'); console.log('@@@');
       </Code>
       {/* <Outline /> */}
+      <NoteLink />
     </>
   )
 }
