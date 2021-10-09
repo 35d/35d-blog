@@ -7,6 +7,7 @@ const notion = new Client({
 })
 
 export const getNotionData = async (databaseId: string, filter: any = undefined) => {
+  console.log('🤟 getNotionData, fetch start ...')
   let results = []
   let hasMore = true // 再帰フェッチ用フラグ
   let cursor // 再帰フェッチ用フラグ
@@ -28,22 +29,41 @@ export const getNotionData = async (databaseId: string, filter: any = undefined)
     results = results.concat(response.results)
     hasMore = response.has_more
     cursor = response.next_cursor
+    console.log('.')
   }
 
-  console.log(results.length)
-
+  console.log('🤟 getNotionData, fetch done')
   return results
 }
 
 export const getPage = async (pageId) => {
+  console.log('👌 getPageData, fetch start ...')
   const response = await notion.pages.retrieve({ page_id: pageId })
+  console.log('👌 getPageData, fetch done ...')
   return response
 }
 
 export const getBlocks = async (blockId) => {
-  const response = await notion.blocks.children.list({
-    block_id: blockId,
-    page_size: 50,
-  })
-  return response.results
+  console.log('👌 getBlocks, fetch start ...')
+
+  let results = []
+  let hasMore = true // 再帰フェッチ用フラグ
+  let cursor // 再帰フェッチ用フラグ
+
+  while (hasMore) {
+    const response = await notion.blocks.children.list({
+      block_id: blockId,
+      page_size: 50,
+      start_cursor: cursor,
+    })
+
+    results = results.concat(response.results)
+    hasMore = response.has_more
+    cursor = response.next_cursor
+    console.log('.')
+  }
+
+  console.log(results)
+  console.log('👌 getBlocks, fetch done')
+  return results
 }
