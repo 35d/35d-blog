@@ -1,6 +1,7 @@
 name: deploy website
 on:
-  push:
+  # for debug
+  # push:
   schedule:
     - cron:  '0 */1 * * *'
 jobs:
