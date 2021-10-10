@@ -1,12 +1,10 @@
 import { Client } from '@notionhq/client'
-import { QueryDatabaseResponse } from '@notionhq/client/build/src/api-endpoints'
-import { sleep } from './sleep'
 
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 })
 
-export const getNotionData = async (databaseId: string, filter: any = undefined) => {
+export const getNotionData = async (databaseId: string, filter: TODO = undefined) => {
   console.log('🤟 getNotionData, fetch start ...')
   let results = []
   let hasMore = true // 再帰フェッチ用フラグ
@@ -16,7 +14,6 @@ export const getNotionData = async (databaseId: string, filter: any = undefined)
   while (hasMore) {
     const response = await notion.databases.query({
       database_id: databaseId,
-      // Sort posts in descending order based on the Date column.
       sorts: [
         {
           property: 'Date',
@@ -26,6 +23,7 @@ export const getNotionData = async (databaseId: string, filter: any = undefined)
       start_cursor: cursor,
       filter,
     })
+
     results = results.concat(response.results)
     hasMore = response.has_more
     cursor = response.next_cursor
@@ -37,9 +35,7 @@ export const getNotionData = async (databaseId: string, filter: any = undefined)
 }
 
 export const getPage = async (pageId) => {
-  console.log('👌 getPageData, fetch start ...')
   const response = await notion.pages.retrieve({ page_id: pageId })
-  console.log('👌 getPageData, fetch done ...')
   return response
 }
 
