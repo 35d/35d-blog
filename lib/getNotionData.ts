@@ -1,4 +1,5 @@
 import { Client } from '@notionhq/client'
+import { sleep } from './sleep'
 
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
@@ -27,6 +28,7 @@ export const getNotionData = async (databaseId: string, filter: TODO = undefined
     results = results.concat(response.results)
     hasMore = response.has_more
     cursor = response.next_cursor
+    await sleep(300)
     console.log('.')
   }
 
@@ -56,6 +58,7 @@ export const getBlocks = async (blockId) => {
     results = results.concat(response.results)
     hasMore = response.has_more
     cursor = response.next_cursor
+    await sleep(300)
     console.log('.')
   }
 
