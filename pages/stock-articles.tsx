@@ -9,6 +9,7 @@ const LINK = '/2020-10-27-notion-stock-article'
 const ID = '93082d8d4b424ac8b67bfa7d4a37e633'
 
 export async function getStaticProps() {
+  console.log('=== getStaticProps stock-articles')
   const database = await getNotionData(ID)
 
   return {
@@ -32,6 +33,7 @@ const StockArticles = (props) => {
   // [0] まずはすべて代入
   props.stockArticles
     .map((_) => _.properties)
+    .filter((_) => !!_.Date.select)
     .forEach((_) => {
       tempStockArticlesForRender.push({ date: _.Date.select.name, stockArticles: [_] })
     })
