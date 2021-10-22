@@ -1,12 +1,12 @@
-import { getNotionData, getPage, getBlocks } from '../lib/getNotionData'
-import { Text, ListItem, Heading, ToDo, Toggle } from '../components/ContentBlocks'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
+import Code from '../components/Code'
+import { Heading, ListItem, Text, ToDo, Toggle } from '../components/ContentBlocks'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
-import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
-import Tags from '../components/Tags'
 import NoteLink from '../components/NoteLink'
-import Code from '../components/Code'
+import Tags from '../components/Tags'
+import { getBlocks, getNotionData, getPage } from '../lib/getNotionData'
+import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
 // import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
@@ -111,11 +111,18 @@ export default function Post({ page, blocks }) {
               </Code>
             )
 
+          case 'divider':
+            return <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
+
           default:
             console.log(
               `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
             )
-            return <hr key={id} className="hr border-gray-300 dark:border-gray-400" />
+            return (
+              <p key={id} className={'text-center'}>
+                🐈
+              </p>
+            )
         }
       })}
     </>
@@ -152,7 +159,7 @@ export const getStaticProps = async (context) => {
 
   // ページのメタデータを取得する
   const page = await getPage(database[0].id)
-  
+
   // ページの本文を取得する
   const blocks = await getBlocks(database[0].id)
 
