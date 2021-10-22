@@ -1,8 +1,7 @@
-import Link from 'next/link'
+import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
 import { ListItem } from '../components/PostItem'
-import BlockHeading from '../components/BlockHeading'
 import { getNotionData } from '../lib/getNotionData'
 
 const LINK = '/2020-10-27-notion-stock-article'
@@ -32,7 +31,7 @@ const StockArticles = (props) => {
   // [0] まずはすべて代入
   props.books
     .map((_) => _.properties)
-    .filter((_) => _.published?.checkbox)
+    .filter((_) => _.Published?.checkbox)
     .forEach((_) => {
       tempStockArticlesForRender.push({ date: _.Date.select?.name, books: [_] })
     })
