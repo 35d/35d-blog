@@ -22,7 +22,17 @@ export const getNotionData = async (databaseId: string, filter: TODO = undefined
         },
       ],
       start_cursor: cursor,
-      filter,
+      filter: {
+        ...filter,
+        and: [
+          {
+            property: 'Published',
+            checkbox: {
+              equals: true,
+            },
+          },
+        ],
+      },
     })
 
     results = results.concat(response.results)

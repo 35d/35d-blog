@@ -71,18 +71,7 @@ export default function Home({ posts, inventoryPosts, popularPosts }) {
 
 export const getStaticProps = async () => {
   // Publish されているデータを取得
-  const database = await getNotionData(process.env.NOTION_DATABASE_ID, {
-    and: [
-      {
-        property: 'Published',
-        checkbox: {
-          equals: true,
-        },
-      },
-    ],
-  })
-
-  // console.log(database[0].properties.Category.select.name)
+  const database = await getNotionData(process.env.NOTION_DATABASE_ID)
 
   // 全てのデータから Popular カテゴリのもの付いているものを抽出
   const popularPosts = database.filter((_) => {
