@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { getNotionData } from '../lib/getNotionData'
+import { useEffect, useState } from 'react'
+import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import PostItem from '../components/PostItem'
-import BlockHeading from '../components/BlockHeading'
+import { getNotionData } from '../lib/getNotionData'
 
 export const useDarkMode = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
@@ -70,10 +70,19 @@ export default function Home({ posts, inventoryPosts, popularPosts }) {
 }
 
 export const getStaticProps = async () => {
-  // 全てのデータを取得
-  const database = await getNotionData(process.env.NOTION_DATABASE_ID)
+  // Publish されているデータを取得
+  const database = await getNotionData(process.env.NOTION_DATABASE_ID, {
+    and: [
+      {
+        property: 'Published',
+        checkbox: {
+          equals: true,
+        },
+      },
+    ],
+  })
 
-  console.log(database[0].properties.Category.select.name)
+  // console.log(database[0].properties.Category.select.name)
 
   // 全てのデータから Popular カテゴリのもの付いているものを抽出
   const popularPosts = database.filter((_) => {
