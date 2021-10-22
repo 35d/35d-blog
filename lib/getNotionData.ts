@@ -5,11 +5,29 @@ const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 })
 
-export const getNotionData = async (databaseId: string, filter: TODO = undefined) => {
+export const getNotionData = async (databaseId: string, _filter: TODO = undefined) => {
   console.log('🤟 getNotionData, fetch start ...')
   let results = []
   let hasMore = true // 再帰フェッチ用フラグ
   let cursor // 再帰フェッチ用フラグ
+
+  // フィルタのベースとなるオブジェクト。Published のもののみを取得する。
+  const filter = {
+    and: [
+      {
+        property: 'Published',
+        checkbox: {
+          equals: true,
+        },
+      },
+    ],
+  }
+
+  if (_filter?.and) {
+    filter.and.push(..._filter.and)
+  }
+
+  // console.log(filter)
 
   //
   while (hasMore) {
@@ -22,17 +40,7 @@ export const getNotionData = async (databaseId: string, filter: TODO = undefined
         },
       ],
       start_cursor: cursor,
-      filter: {
-        ...filter,
-        and: [
-          {
-            property: 'Published',
-            checkbox: {
-              equals: true,
-            },
-          },
-        ],
-      },
+      filter,
     })
 
     results = results.concat(response.results)

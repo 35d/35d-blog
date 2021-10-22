@@ -146,8 +146,9 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { slug } = context.params
 
+  // 指定したスラッグのもののみを取得する
   const database = await getNotionData(databaseId, {
-    or: [
+    and: [
       {
         property: 'Slug',
         text: {
@@ -156,6 +157,8 @@ export const getStaticProps = async (context) => {
       },
     ],
   })
+
+  console.log(database)
 
   // ページのメタデータを取得する
   const page = await getPage(database[0].id)

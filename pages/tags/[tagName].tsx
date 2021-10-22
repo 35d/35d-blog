@@ -3,14 +3,12 @@ import BlockHeading from '../../components/BlockHeading'
 import Header from '../../components/Header'
 import PostItem from '../../components/PostItem'
 import { getNotionData } from '../../lib/getNotionData'
-import { getBlogTagLink, postIsReady } from '../../lib/helpers'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
 export async function getStaticProps({ params: { tagName } }) {
-
   const database = await getNotionData(databaseId, {
-    or: [
+    and: [
       {
         property: 'Tag',
         multi_select: {
