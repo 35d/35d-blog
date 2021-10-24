@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
-import { getNotionData } from '../lib/getNotionData'
+import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import PostItem from '../components/PostItem'
-import BlockHeading from '../components/BlockHeading'
+import { getNotionData } from '../lib/getNotionData'
 
 export const useDarkMode = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
@@ -57,5 +56,6 @@ export const getStaticProps = async () => {
     props: {
       posts: database,
     },
+    revalidate: 60,
   }
 }
