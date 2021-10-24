@@ -139,7 +139,7 @@ export const getStaticPaths = async () => {
         slug: page.properties.Slug.rich_text[0].plain_text,
       },
     })),
-    fallback: false,
+    fallback: true,
   }
 }
 
