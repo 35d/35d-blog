@@ -91,5 +91,6 @@ export const getStaticProps = async () => {
       popularPosts,
       inventoryPosts,
     },
+    revalidate: 60,
   }
 }

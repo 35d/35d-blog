@@ -139,7 +139,7 @@ export const getStaticPaths = async () => {
         slug: page.properties.Slug.rich_text[0].plain_text,
       },
     })),
-    fallback: true,
+    fallback: 'blocking',
   }
 }
 
@@ -157,8 +157,6 @@ export const getStaticProps = async (context) => {
       },
     ],
   })
-
-  console.log(database)
 
   // ページのメタデータを取得する
   const page = await getPage(database[0].id)
