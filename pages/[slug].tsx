@@ -100,7 +100,9 @@ export default function Post({ page, blocks }) {
               }
 
               return (
-                <TwitterTweetEmbed key={id} tweetId={tweetId} options={{ margin: '0 auto;' }} />
+                <div key={id} className={'md:w-6/12 m-auto'}>
+                  <TwitterTweetEmbed tweetId={tweetId} />
+                </div>
               )
             }
 
