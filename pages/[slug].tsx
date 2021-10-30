@@ -85,7 +85,7 @@ export default function Post({ page, blocks }) {
 
           case 'image':
             return (
-              <figure key={id}>
+              <figure key={id} className={'mb-3'}>
                 <img src={value.file.url} alt={getAltStr(value.caption)} className={'mb-2'} />
                 <figcaption>{getCaptionStr(value.caption)}</figcaption>
               </figure>
