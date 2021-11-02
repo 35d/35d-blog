@@ -116,6 +116,16 @@ export default function Post({ page, blocks }) {
           case 'divider':
             return <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
 
+          case 'quote':
+            return (
+              <blockquote
+                className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm"
+                key={id}
+              >
+                {value.text[0].plain_text}
+              </blockquote>
+            )
+
           default:
             console.log(
               `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
