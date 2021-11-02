@@ -119,7 +119,7 @@ export default function Post({ page, blocks }) {
           case 'quote':
             return (
               <blockquote
-                className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm"
+                className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm mb-4"
                 key={id}
               >
                 {value.text[0].plain_text}
