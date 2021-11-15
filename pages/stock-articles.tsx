@@ -1,8 +1,8 @@
 import Link from 'next/link'
+import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
 import { ListItem } from '../components/PostItem'
-import BlockHeading from '../components/BlockHeading'
 import { getNotionData } from '../lib/getNotionData'
 
 const LINK = '/2020-10-27-notion-stock-article'
@@ -16,7 +16,7 @@ export async function getStaticProps() {
     props: {
       stockArticles: database,
     },
-    revalidate: 60,
+    revalidate: 600,
   }
 }
 
