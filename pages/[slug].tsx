@@ -88,6 +88,9 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
         </blockquote>
       )
 
+    case 'synced_block':
+      return value.children.map(getJsxElementFromNotionBlock)
+
     default:
       console.log(
         `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
