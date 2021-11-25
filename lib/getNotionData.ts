@@ -5,6 +5,10 @@ const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 })
 
+/**
+ * databaseId を引数に取り、Notion のデータベースから記事全件を取得し返却する
+ * @param {string} databaseId
+ */
 export const getNotionData = async (databaseId: string, _filter: TODO = undefined) => {
   console.log('🤟 getNotionData, fetch start ...')
   let results = []

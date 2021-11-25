@@ -23,10 +23,12 @@
     "react-dom": "17.0.2",
     "react-medium-image-zoom": "^4.3.5",
     "react-twitter-embed": "^3.0.3",
+    "rss": "^1.2.2",
     "styled-components": "^5.3.1",
     "yarn": "^1.22.15"
   },
   "devDependencies": {
+    "@types/rss": "^0.0.29",
     "autoprefixer": "10.2.5",
     "babel-plugin-prismjs": "^2.1.0",
     "postcss": "8.2.15",
