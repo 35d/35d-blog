@@ -14,6 +14,92 @@ const databaseId = process.env.NOTION_DATABASE_ID
 // TODO
 type Post = any
 
+/**
+ * Notion のブロックから JSX エレメントを返却する
+ */
+const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
+  const { type, id } = block
+  const value = block[type]
+  const { text } = value
+
+  switch (type) {
+    case 'paragraph':
+      return <Text text={value.text} id={id} key={id} />
+
+    case 'heading_1':
+      return <Heading text={text} id={id} level={type} key={id} />
+
+    case 'heading_2':
+      return <Heading text={text} id={id} level={type} key={id} />
+
+    case 'heading_3':
+      return <Heading text={text} id={id} level={type} key={id} />
+
+    case 'bulleted_list_item':
+    case 'numbered_list_item':
+      return <ListItem key={id} text={value.text} id={id} />
+
+    case 'to_do':
+      return <ToDo id={id} key={id} value={value} text={value.text} />
+
+    case 'toggle':
+      return <Toggle key={id} text={value.text} children={value.children} />
+
+    case 'image':
+      return (
+        <figure key={id} className={'mb-3'}>
+          <img src={value.file.url} alt={getAltStr(value.caption)} className={'mb-2'} />
+          <figcaption>{getCaptionStr(value.caption)}</figcaption>
+        </figure>
+      )
+
+    case 'embed':
+      if (value.url.includes('twitter.com')) {
+        const pos = value.url.indexOf('?')
+        let tweetId = value.url.substring(0, pos).split('/')[5]
+        if (!tweetId) {
+          tweetId = value.url.split('/')[5]
+        }
+
+        return (
+          <div key={id} className={'md:w-6/12 m-auto'}>
+            <TwitterTweetEmbed tweetId={tweetId} />
+          </div>
+        )
+      }
+
+    case 'code':
+      return (
+        <Code key={id} language={value.language}>
+          {value.text[0]?.plain_text}
+        </Code>
+      )
+
+    case 'divider':
+      return <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
+
+    case 'quote':
+      return (
+        <blockquote
+          className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm mb-4"
+          key={id}
+        >
+          {value.text[0].plain_text}
+        </blockquote>
+      )
+
+    default:
+      console.log(
+        `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
+      )
+      return (
+        <p key={id} className={'text-center'}>
+          🐈
+        </p>
+      )
+  }
+}
+
 export default function Post({ page, blocks }) {
   if (!page || !blocks) {
     return <div>ページが存在しません</div>
@@ -55,88 +141,7 @@ export default function Post({ page, blocks }) {
         </div>
       )}
 
-      {blocks.map((block) => {
-        const { type, id } = block
-        const value = block[type]
-        const { text } = value
-
-        switch (type) {
-          case 'paragraph':
-            return <Text text={value.text} id={id} key={id} />
-
-          case 'heading_1':
-            return <Heading text={text} id={id} level={type} key={id} />
-
-          case 'heading_2':
-            return <Heading text={text} id={id} level={type} key={id} />
-
-          case 'heading_3':
-            return <Heading text={text} id={id} level={type} key={id} />
-
-          case 'bulleted_list_item':
-          case 'numbered_list_item':
-            return <ListItem key={id} text={value.text} id={id} />
-
-          case 'to_do':
-            return <ToDo id={id} key={id} value={value} text={value.text} />
-
-          case 'toggle':
-            return <Toggle key={id} text={value.text} children={value.children} />
-
-          case 'image':
-            return (
-              <figure key={id} className={'mb-3'}>
-                <img src={value.file.url} alt={getAltStr(value.caption)} className={'mb-2'} />
-                <figcaption>{getCaptionStr(value.caption)}</figcaption>
-              </figure>
-            )
-
-          case 'embed':
-            if (value.url.includes('twitter.com')) {
-              const pos = value.url.indexOf('?')
-              let tweetId = value.url.substring(0, pos).split('/')[5]
-              if (!tweetId) {
-                tweetId = value.url.split('/')[5]
-              }
-
-              return (
-                <div key={id} className={'md:w-6/12 m-auto'}>
-                  <TwitterTweetEmbed tweetId={tweetId} />
-                </div>
-              )
-            }
-
-          case 'code':
-            return (
-              <Code key={id} language={value.language}>
-                {value.text[0]?.plain_text}
-              </Code>
-            )
-
-          case 'divider':
-            return <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
-
-          case 'quote':
-            return (
-              <blockquote
-                className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm mb-4"
-                key={id}
-              >
-                {value.text[0].plain_text}
-              </blockquote>
-            )
-
-          default:
-            console.log(
-              `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
-            )
-            return (
-              <p key={id} className={'text-center'}>
-                🐈
-              </p>
-            )
-        }
-      })}
+      {blocks.map(getJsxElementFromNotionBlock)}
     </>
   )
 }
