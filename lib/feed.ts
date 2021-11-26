@@ -20,6 +20,11 @@ export const generateFeedXml = async () => {
     )
 
     feed.item({
+      custom_elements: [
+        {
+          content: `<![CDATA[ <p>記事は 35D BLOG へアクセスしてご覧ください。</p><p><a href="https://blog.35d.jp/${post.properties.Slug.rich_text[0]?.plain_text}">記事を読む</a></p> ]]>`,
+        },
+      ],
       title: post.properties.Page.title[0].plain_text,
       description,
       date: new Date(post.properties.Date.date.start),
