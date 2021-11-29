@@ -18,7 +18,7 @@ const Navigation = ({ titlePre = '', ogImageUrl = '', description = '', slug = '
   return (
     <header className={`z-50 static sm:fixed w-full sm:w-36 ml-0 mb-10`}>
       <ul className="list-none">
-        <li className={'mb-4 -mt-2 font-bold text-lg'}>
+        <li className={'mb-4 font-bold text-lg'}>
           <Link href={'/'} prefetch={false}>
             <a className="no-underline">35D BLOG</a>
           </Link>
