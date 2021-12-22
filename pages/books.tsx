@@ -85,7 +85,7 @@ const StockArticles = (props) => {
                     return (
                       <div key={_.title.title[0]?.plain_text + i}>
                         <ListItem
-                          title={_.title.title[0]?.plain_text}
+                          title={_.title.title[0]?.plain_text + ' ' + _.evaluation.select.name}
                           url={_.amazonUrl.rich_text[0]?.plain_text}
                           subTitle={_.comment.rich_text[0]?.plain_text}
                           isExtLink={true}
