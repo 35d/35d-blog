@@ -62,7 +62,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
         }
 
         return (
-          <div key={id} className={'md:w-6/12 m-auto'}>
+          <div key={id} className={'mb-4 m-auto'}>
             <TwitterTweetEmbed tweetId={tweetId} />
           </div>
         )
