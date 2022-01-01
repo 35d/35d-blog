@@ -38,10 +38,7 @@ const Breadcrumbs = ({ route }: { route: string }) => {
 }
 
 const App = ({ Component, pageProps }) => {
-  console.log(pageProps)
-
   const router = useRouter()
-  console.log(router)
 
   let defaultTheme
   if (process.browser) {
