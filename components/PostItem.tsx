@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import tags from './Tags'
+import Tags from './Tags'
 import { getBlogLink, slugToDate } from '../lib/helpers'
 import ExtLink from '../components/ExtLink'
 
@@ -10,6 +10,8 @@ type Post = any
  * 記事一覧で使用するコンポーネント
  */
 const PostItem = ({ post }: { post: Post }) => {
+  const tags = post.properties.Tag.multi_select.map((_) => _.name)
+
   return (
     <li className="list-none">
       <Link href={getBlogLink(post.properties.Slug.rich_text[0].plain_text)}>
@@ -18,7 +20,8 @@ const PostItem = ({ post }: { post: Post }) => {
         </a>
       </Link>
       <p className={'opacity-90'}>
-        {slugToDate(post.properties.Slug.rich_text[0].plain_text)} {post.Tag && tags(post.Tag)}
+        <span className="mr-2">{slugToDate(post.properties.Slug.rich_text[0].plain_text)}</span>
+        <Tags tags={tags} />
       </p>
     </li>
   )
