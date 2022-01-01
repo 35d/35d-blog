@@ -9,7 +9,7 @@ const notion = new Client({
   auth: process.env.NOTION_TOKEN,
 })
 
-const IS_DEVELOPMENT = process.env.NODE_ENV
+const IS_DEVELOPMENT = process.env.NODE_ENV === 'development'
 
 /**
  * databaseId を引数に取り、Notion のデータベースから記事全件を取得し返却する
