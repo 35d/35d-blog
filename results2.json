@@ -1,0 +1,330 @@
+[
+  {
+    "object": "block",
+    "id": "20db9579-ee0c-4f40-89ba-8fe71afa37cf",
+    "created_time": "2022-01-01T04:18:00.000Z",
+    "last_edited_time": "2022-01-01T04:18:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Blue Microphones Yeticaster | Blue Microphones Yeticaster",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Blue Microphones Yeticaster | Blue Microphones Yeticaster",
+          "href": null
+        }
+      ],
+      "type": "file",
+      "file": {
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/614d32f5-ec6b-4e24-ba18-0e82e0e76db2/IMG_4944.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220101T152210Z&X-Amz-Expires=3600&X-Amz-Signature=6607a08961718f3bc5f257177cb73fa441b131f1cd43f2b7cef6767085b934b0&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "expiry_time": "2022-01-01T16:22:10.469Z"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "1e109f23-9f38-40a4-b285-a5143d725818",
+    "created_time": "2022-01-01T04:18:00.000Z",
+    "last_edited_time": "2022-01-01T04:18:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": { "text": [] }
+  },
+  {
+    "object": "block",
+    "id": "e2b83e42-2d54-4c9d-8b24-4b0f6e9b04b7",
+    "created_time": "2022-01-01T04:18:00.000Z",
+    "last_edited_time": "2022-01-01T04:32:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "自分へのクリスマスプレゼントということでマイクを購入した。YouTube 活動を開始したのがきっかけで、今までは 1,500 程度円の安物ピンマイクをずっと使っていた。配信や撮影を行うときに環境音を取り込みすぎてしまって外の車の走行音を拾ってしまったり、服に付ける都合上、服との接触音が気になってしまってなかなか満足のいく音質にはなっていなかったので一念発起して購入した。",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "自分へのクリスマスプレゼントということでマイクを購入した。YouTube 活動を開始したのがきっかけで、今までは 1,500 程度円の安物ピンマイクをずっと使っていた。配信や撮影を行うときに環境音を取り込みすぎてしまって外の車の走行音を拾ってしまったり、服に付ける都合上、服との接触音が気になってしまってなかなか満足のいく音質にはなっていなかったので一念発起して購入した。",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "dc3feb54-2200-4369-859d-5d558af8a1fe",
+    "created_time": "2022-01-01T04:25:00.000Z",
+    "last_edited_time": "2022-01-01T04:25:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": { "text": [] }
+  },
+  {
+    "object": "block",
+    "id": "e8bbfc72-e3ec-4200-b248-1c2013ce706d",
+    "created_time": "2022-01-01T04:25:00.000Z",
+    "last_edited_time": "2022-01-01T04:33:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": { "content": "購入したのは ", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "購入したのは ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Blue Microphones Yeticaster",
+            "link": { "url": "https://amzn.to/3eDoDzp" }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Blue Microphones Yeticaster",
+          "href": "https://amzn.to/3eDoDzp"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " というモデルで、インターネットで評判を見たときに良さそうなものを選んだ。安い買い物ではなかったのだが、価格は信頼度を表すバロメータだと思っている。",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " というモデルで、インターネットで評判を見たときに良さそうなものを選んだ。安い買い物ではなかったのだが、価格は信頼度を表すバロメータだと思っている。",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "98559d1c-815e-48d7-aefe-04597345d72f",
+    "created_time": "2022-01-01T04:25:00.000Z",
+    "last_edited_time": "2022-01-01T04:25:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": { "text": [] }
+  },
+  {
+    "object": "block",
+    "id": "93d2b31b-0b73-4d42-8a58-3f3f71d5419e",
+    "created_time": "2022-01-01T04:25:00.000Z",
+    "last_edited_time": "2022-01-01T04:34:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "まだ1回しか配信できていないが、使い心地や音質に関しては概ね満足で、これはマイク本体の性能というわけではないのだが、アームに設置するタイプがかなり使いやすい。今まで服との擦れを気にしていたのが、全く気にしなくて良くなったし、いちいち取り出して装着するという手間も省けたのでかなり快適になった。配信や撮影の心理的なハードルが下がったのはかなり大きい。",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "まだ1回しか配信できていないが、使い心地や音質に関しては概ね満足で、これはマイク本体の性能というわけではないのだが、アームに設置するタイプがかなり使いやすい。今まで服との擦れを気にしていたのが、全く気にしなくて良くなったし、いちいち取り出して装着するという手間も省けたのでかなり快適になった。配信や撮影の心理的なハードルが下がったのはかなり大きい。",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "51b04c3b-d76c-40b4-ad56-72e971aa3f33",
+    "created_time": "2022-01-01T04:34:00.000Z",
+    "last_edited_time": "2022-01-01T04:34:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": { "text": [] }
+  },
+  {
+    "object": "block",
+    "id": "3fc6f360-0542-4750-8bb0-2df3536b537b",
+    "created_time": "2022-01-01T04:34:00.000Z",
+    "last_edited_time": "2022-01-01T04:34:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "機材も買ったことだし、2022 年はもうひと踏ん張り YouTube 活動を頑張ってみようかと思っているところ。",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "機材も買ったことだし、2022 年はもうひと踏ん張り YouTube 活動を頑張ってみようかと思っているところ。",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "1995a6a5-d72f-46af-a376-585db8eaa5c3",
+    "created_time": "2022-01-01T04:25:00.000Z",
+    "last_edited_time": "2022-01-01T04:35:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": { "content": "▷ ", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "▷ ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Blue Microphones Yeticaster ストリーミングセット",
+            "link": { "url": "https://amzn.to/3pIC07B" }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Blue Microphones Yeticaster ストリーミングセット",
+          "href": "https://amzn.to/3pIC07B"
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "b128db2f-a446-4268-9a09-c29da2480604",
+    "created_time": "2022-01-01T04:35:00.000Z",
+    "last_edited_time": "2022-01-01T04:35:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": { "content": "▷ ", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "▷ ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "YouTube",
+            "link": { "url": "https://www.youtube.com/channel/UCMBoZr4HyLmDGyv5tIQ006g" }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "YouTube",
+          "href": "https://www.youtube.com/channel/UCMBoZr4HyLmDGyv5tIQ006g"
+        },
+        {
+          "type": "text",
+          "text": { "content": " ", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    }
+  }
+]
