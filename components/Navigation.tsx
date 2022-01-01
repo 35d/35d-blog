@@ -34,7 +34,8 @@ const Navigation = ({ titlePre = '', ogImageUrl = '', description = '', slug = '
             )}
           </li>
         ))}
-        <li className={'text-sm mb-3'}>
+        {/* 外部リンク */}
+        {/* <li className={'text-sm mb-3'}>
           <ExtLink
             href={'https://note.com/35d'}
             className="no-underline hover:bg-gray-300 dark:hover:bg-gray-900"
@@ -64,7 +65,7 @@ const Navigation = ({ titlePre = '', ogImageUrl = '', description = '', slug = '
           >
             Instagram
           </ExtLink>
-        </li>
+        </li> */}
       </ul>
       <button onClick={toggleDarkMode}>{isDarkMode ? '🌑' : '🌝'}</button>
     </header>
