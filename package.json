@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "json-server": "npx json-server --watch db.json --port 3004"
   },
   "dependencies": {
     "@notionhq/client": "0.4.4",
