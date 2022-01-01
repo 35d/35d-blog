@@ -8,7 +8,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'WEB CLIPS', page: '/stock-articles' },
   { label: 'READ BOOKS', page: '/books' },
   { label: 'PROFILE', page: '/2020-09-19-profile' },
-  { label: 'RSS FEED', page: '/feed' },
+  // { label: 'RSS FEED', page: '/feed' },
   // { label: 'FAST NOTION', page: '/2021-04-22-fast-notion-help-center' },
 ]
 
@@ -55,6 +55,14 @@ const Navigation = ({ titlePre = '', ogImageUrl = '', description = '', slug = '
             className="no-underline hover:bg-gray-300 dark:hover:bg-gray-900"
           >
             Twitter
+          </ExtLink>
+        </li>
+        <li className={'text-sm mb-3'}>
+          <ExtLink
+            href={'https://www.instagram.com/yuji_tsuburaya/'}
+            className="no-underline hover:bg-gray-300 dark:hover:bg-gray-900"
+          >
+            Instagram
           </ExtLink>
         </li>
       </ul>

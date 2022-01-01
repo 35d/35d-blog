@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import ExtLink from './ExtLink'
 
 const ExternalLink = ({ href, children }) => (
@@ -34,12 +35,21 @@ export default function Footer() {
           </p>
           <p className="text-sm">
             <small className="text-sm mr-2">
-              <ExtLink className="no-underline" href={'https://blog.35d.jp/'}>
+              <ExtLink
+                className="hover:bg-gray-300 dark:hover:bg-gray-900 no-underline"
+                href={'https://blog.35d.jp/'}
+              >
                 © 35D BLOG
               </ExtLink>
             </small>
+            <Link href={'/feed'} prefetch={false}>
+              <a className=" hover:bg-gray-300 dark:hover:bg-gray-900 text-sm mr-2">RSS Feed</a>
+            </Link>
             <span>
-              <ExtLink className="" href={'https://buy.stripe.com/8wM8Addc9e6N9JSaEE'}>
+              <ExtLink
+                className="hover:bg-gray-300 dark:hover:bg-gray-900 "
+                href={'https://buy.stripe.com/8wM8Addc9e6N9JSaEE'}
+              >
                 投げ銭
               </ExtLink>
             </span>
