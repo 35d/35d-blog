@@ -1,6 +1,6 @@
 import { Client } from '@notionhq/client'
 import { sleep } from './sleep'
-// import fs from 'fs'
+import fs from 'fs'
 import results1 from '../results1.json'
 import results2 from '../results2.json'
 import results3 from '../results3.json'
@@ -69,6 +69,7 @@ export const getNotionData = async (databaseId: string, _filter: TODO = undefine
   //   if (err) throw err
   //   console.log('正常に書き込みが完了しました')
   // })
+
   return results
 }
 
