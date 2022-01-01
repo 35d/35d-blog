@@ -1,4 +1,5 @@
 import { TwitterTweetEmbed } from 'react-twitter-embed'
+import dayjs from 'dayjs'
 import Code from '../components/Code'
 import { Heading, ListItem, Text, ToDo, Toggle } from '../components/ContentBlocks'
 import Header from '../components/Header'
@@ -122,7 +123,6 @@ export default function Post({ page, blocks }) {
           <Heading1>{title}</Heading1>
         </div>
       </div>
-
       <div>
         <p className={'opacity-90 font-bold'}>
           <span className="posted mr-2">
@@ -142,6 +142,12 @@ export default function Post({ page, blocks }) {
         <div className="mb16">
           <NoteLink />
         </div>
+      )}
+
+      {dayjs(date).diff(dayjs(), 'year') < -1 && (
+        <p className="text-pink-700 dark:text-pink-600">
+          <span className="font-semibold">⚠ </span>この記事は内容が古くなっています
+        </p>
       )}
 
       {blocks.map(getJsxElementFromNotionBlock)}

@@ -59,7 +59,7 @@
     "Date": {
       "id": "a%60af",
       "type": "date",
-      "date": { "start": "2022-01-01", "end": null, "time_zone": null }
+      "date": { "start": "2021-01-01", "end": null, "time_zone": null }
     },
     "Authors": {
       "id": "ijjk",
