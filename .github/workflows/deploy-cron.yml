@@ -1,31 +1,31 @@
-name: deploy website
-on:
-  # for debug
-  # push:
-  schedule:
-    - cron:  '0 */1 * * *'
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.inputs.ref }}
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '15'
-      # 投稿内容を更新するために npm run build:posts を走らせる
-      - name: Recreate all posts
-        shell: bash
-        run: |
-          yarn
-          NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }} NOTION_TOKEN=${{ secrets.NOTION_TOKEN }} yarn build
-      - uses: amondnet/vercel-action@v20
-        with:
-          # GitHub Actions の Secrets で作成した値を参照する形で
-          # Vercel デプロイ時に必要となる各種パラメタを設定する
-          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          vercel-args: '--prod' # Optional
-          vercel-org-id: ${{ secrets.ORG_ID}}  #Required
-          vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
-          working-directory: ./
+# name: deploy website
+# on:
+#   # for debug
+#   # push
+#   # schedule:
+#   #   - cron:  '0 */1 * * *'
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#         with:
+#           ref: ${{ github.event.inputs.ref }}
+#       - uses: actions/setup-node@v2
+#         with:
+#           node-version: '15'
+#       # 投稿内容を更新するために npm run build:posts を走らせる
+#       - name: Recreate all posts
+#         shell: bash
+#         run: |
+#           yarn
+#           NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }} NOTION_TOKEN=${{ secrets.NOTION_TOKEN }} yarn build
+#       - uses: amondnet/vercel-action@v20
+#         with:
+#           # GitHub Actions の Secrets で作成した値を参照する形で
+#           # Vercel デプロイ時に必要となる各種パラメタを設定する
+#           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+#           vercel-args: '--prod' # Optional
+#           vercel-org-id: ${{ secrets.ORG_ID}}  #Required
+#           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
+#           working-directory: ./
