@@ -8,6 +8,7 @@ import NoteLink from '../components/NoteLink'
 import Tags from '../components/Tags'
 import { getBlocks, getNotionData, getPage } from '../lib/getNotionData'
 import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
+import saveImageIfNeeded from '../lib/saveImage'
 // import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
@@ -47,12 +48,20 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
       return <Toggle key={id} text={value.text} children={value.children} />
 
     case 'image':
-      return (
-        <figure key={id} className={'mb-3'}>
-          <img src={value.file.url} alt={getAltStr(value.caption)} className={'mb-2'} />
-          <figcaption>{getCaptionStr(value.caption)}</figcaption>
-        </figure>
-      )
+      // 外部埋め込み画像は現在非対応
+      if (block.image.type === 'file') {
+        return (
+          <figure key={id} className={'mb-3'}>
+            <img
+              // src={value.file.url} // Notion s3 を使用する場合
+              src={'/blogImages/' + block.id + '.png'}
+              alt={getAltStr(value.caption)}
+              className={'mb-2'}
+            />
+            <figcaption>{getCaptionStr(value.caption)}</figcaption>
+          </figure>
+        )
+      }
 
     case 'embed':
       if (value.url.includes('twitter.com')) {
@@ -207,6 +216,9 @@ export const getStaticProps = async (context) => {
     }
     return block
   })
+
+  // 画像を保存する処理
+  saveImageIfNeeded(blocksWithChildren)
 
   return {
     props: {
