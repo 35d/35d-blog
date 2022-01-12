@@ -58,7 +58,7 @@ export const getNotionData = async (databaseId: string, _filter: TODO = undefine
     results = results.concat(response.results)
     hasMore = response.has_more
     cursor = response.next_cursor
-    await sleep(600)
+    await sleep(400)
     console.log('.')
   }
 
@@ -92,7 +92,7 @@ export const getBlocks = async (blockId) => {
     results = results.concat(response.results)
     hasMore = response.has_more
     cursor = response.next_cursor
-    await sleep(600)
+    await sleep(400)
     console.log('.')
   }
 

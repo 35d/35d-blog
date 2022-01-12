@@ -48,7 +48,7 @@ export async function getStaticProps({ params: { tagName } }) {
       posts: database,
       tagName: tagName,
     },
-    revalidate: 600,
+    revalidate: 6000,
   }
 }
 
