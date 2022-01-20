@@ -16,7 +16,7 @@ export async function getStaticProps() {
     props: {
       stockArticles: database,
     },
-    revalidate: 6000,
+    // revalidate: 6000,
   }
 }
 

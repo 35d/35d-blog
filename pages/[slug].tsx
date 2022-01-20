@@ -1,5 +1,5 @@
-import { TwitterTweetEmbed } from 'react-twitter-embed'
 import dayjs from 'dayjs'
+import { TwitterTweetEmbed } from 'react-twitter-embed'
 import Code from '../components/Code'
 import { Heading, ListItem, Text, ToDo, Toggle } from '../components/ContentBlocks'
 import Header from '../components/Header'
@@ -225,6 +225,6 @@ export const getStaticProps = async (context) => {
       page,
       blocks: blocksWithChildren,
     },
-    revalidate: 6000,
+    // revalidate: 6000,
   }
 }
