@@ -1,6 +1,7 @@
 name: deploy website
 on:
   # for debug
+  workflow_dispatch:
   push:
   schedule:
     - cron: '0 */24 * * *'
