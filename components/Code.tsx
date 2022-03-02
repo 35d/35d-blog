@@ -5,13 +5,35 @@ import 'prismjs/components/prism-jsx'
 import 'prismjs/components/prism-yaml'
 import React, { useEffect } from 'react'
 
-const Code = ({ children, language = 'javascript' }) => {
+/**
+ * 言語 string を表示用に変換して返却
+ * NOTE: 言語の表示形式で気になるところがあったら case 追加する
+ */
+const getLanguageLabel = (language: string) => {
+  let languageLabel = ''
+
+  switch (language) {
+    case 'javascript':
+      languageLabel = 'JavaScript'
+      break
+    default:
+      languageLabel = language
+      break
+  }
+
+  return languageLabel
+}
+
+const Code = ({ children, language }) => {
   useEffect(() => {
     Prism.highlightAll()
   }, [])
 
   return (
-    <pre>
+    <pre className="relative">
+      <p className="absolute bottom-0 right-4 text-gray-800 text-xs font-semibold bg-gray-200 mb-0 px-2 py-[2px]">
+        {getLanguageLabel(language)}
+      </p>
       <code
         dangerouslySetInnerHTML={{
           __html: Prism.highlight(children, Prism.languages[language]),

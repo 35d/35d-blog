@@ -1,18 +1,20 @@
 [
   {
     "object": "block",
-    "id": "20db9579-ee0c-4f40-89ba-8fe71afa37cf",
-    "created_time": "2022-01-01T04:18:00.000Z",
-    "last_edited_time": "2022-01-01T04:18:00.000Z",
+    "id": "46aacd7c-8a0b-4570-b150-c3cd24246a9c",
+    "created_time": "2022-01-05T10:06:00.000Z",
+    "last_edited_time": "2022-01-05T10:17:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
         {
           "type": "text",
           "text": {
-            "content": "Blue Microphones Yeticaster | Blue Microphones Yeticaster",
+            "content": "Tailwind CSS には jit（Just in Time）モードというのがあり、その場でしか使用しないプロパティを記述する方法があるというのを知った。ちなみに Tailwind CSS v3 が 2021年の11月にリリースされて、v3 を使っている人はデフォルトで使えるようになっているっぽい。",
             "link": null
           },
           "annotations": {
@@ -23,22 +25,51 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Blue Microphones Yeticaster | Blue Microphones Yeticaster",
+          "plain_text": "Tailwind CSS には jit（Just in Time）モードというのがあり、その場でしか使用しないプロパティを記述する方法があるというのを知った。ちなみに Tailwind CSS v3 が 2021年の11月にリリースされて、v3 を使っている人はデフォルトで使えるようになっているっぽい。",
           "href": null
         }
-      ],
-      "type": "file",
-      "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/614d32f5-ec6b-4e24-ba18-0e82e0e76db2/IMG_4944.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220101T152210Z&X-Amz-Expires=3600&X-Amz-Signature=6607a08961718f3bc5f257177cb73fa441b131f1cd43f2b7cef6767085b934b0&X-Amz-SignedHeaders=host&x-id=GetObject",
-        "expiry_time": "2022-01-01T16:22:10.469Z"
-      }
+      ]
     }
   },
   {
     "object": "block",
-    "id": "1e109f23-9f38-40a4-b285-a5143d725818",
-    "created_time": "2022-01-01T04:18:00.000Z",
-    "last_edited_time": "2022-01-01T04:18:00.000Z",
+    "id": "ea6c025c-3c79-4204-85d3-af84d6d3570d",
+    "created_time": "2022-01-05T10:10:00.000Z",
+    "last_edited_time": "2022-01-05T10:10:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "https://tailwindcss.com/blog/tailwindcss-v3",
+            "link": { "url": "https://tailwindcss.com/blog/tailwindcss-v3" }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "https://tailwindcss.com/blog/tailwindcss-v3",
+          "href": "https://tailwindcss.com/blog/tailwindcss-v3"
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "800b8866-4bf8-46c6-96a1-3177191d0f5f",
+    "created_time": "2022-01-05T10:10:00.000Z",
+    "last_edited_time": "2022-01-05T10:10:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -46,9 +77,11 @@
   },
   {
     "object": "block",
-    "id": "e2b83e42-2d54-4c9d-8b24-4b0f6e9b04b7",
-    "created_time": "2022-01-01T04:18:00.000Z",
-    "last_edited_time": "2022-01-01T04:32:00.000Z",
+    "id": "2dafd557-7fb5-47e4-9c31-0ffa67fc3f08",
+    "created_time": "2022-01-05T10:10:00.000Z",
+    "last_edited_time": "2022-01-05T10:18:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -57,7 +90,7 @@
         {
           "type": "text",
           "text": {
-            "content": "自分へのクリスマスプレゼントということでマイクを購入した。YouTube 活動を開始したのがきっかけで、今までは 1,500 程度円の安物ピンマイクをずっと使っていた。配信や撮影を行うときに環境音を取り込みすぎてしまって外の車の走行音を拾ってしまったり、服に付ける都合上、服との接触音が気になってしまってなかなか満足のいく音質にはなっていなかったので一念発起して購入した。",
+            "content": "僕の場合は Nuxt.js に Tailwind CSS のプラグインを組み込んで使用している都合上、まだ Tailwind CSS v3 を使えておらず v2 で、jit モードを ON にして使っている。jit モードを ON にすると何ができるかは以下の公式ドキュメントを見ると書いてある。結論、ON にしない理由がないくらいメッチャ便利。",
             "link": null
           },
           "annotations": {
@@ -68,7 +101,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "自分へのクリスマスプレゼントということでマイクを購入した。YouTube 活動を開始したのがきっかけで、今までは 1,500 程度円の安物ピンマイクをずっと使っていた。配信や撮影を行うときに環境音を取り込みすぎてしまって外の車の走行音を拾ってしまったり、服に付ける都合上、服との接触音が気になってしまってなかなか満足のいく音質にはなっていなかったので一念発起して購入した。",
+          "plain_text": "僕の場合は Nuxt.js に Tailwind CSS のプラグインを組み込んで使用している都合上、まだ Tailwind CSS v3 を使えておらず v2 で、jit モードを ON にして使っている。jit モードを ON にすると何ができるかは以下の公式ドキュメントを見ると書いてある。結論、ON にしない理由がないくらいメッチャ便利。",
           "href": null
         }
       ]
@@ -76,9 +109,43 @@
   },
   {
     "object": "block",
-    "id": "dc3feb54-2200-4369-859d-5d558af8a1fe",
-    "created_time": "2022-01-01T04:25:00.000Z",
-    "last_edited_time": "2022-01-01T04:25:00.000Z",
+    "id": "b8a7e094-2e01-46f4-9380-b7d1aac19738",
+    "created_time": "2022-01-05T10:06:00.000Z",
+    "last_edited_time": "2022-01-05T10:06:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "https://v2.tailwindcss.com/docs/just-in-time-mode",
+            "link": { "url": "https://v2.tailwindcss.com/docs/just-in-time-mode" }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "https://v2.tailwindcss.com/docs/just-in-time-mode",
+          "href": "https://v2.tailwindcss.com/docs/just-in-time-mode"
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "52087677-da33-40ac-8131-3f6e5158d64e",
+    "created_time": "2022-01-05T10:08:00.000Z",
+    "last_edited_time": "2022-01-05T10:08:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -86,9 +153,11 @@
   },
   {
     "object": "block",
-    "id": "e8bbfc72-e3ec-4200-b248-1c2013ce706d",
-    "created_time": "2022-01-01T04:25:00.000Z",
-    "last_edited_time": "2022-01-01T04:33:00.000Z",
+    "id": "18f083e3-5163-4bfc-a68f-436837cabcaf",
+    "created_time": "2022-01-05T10:07:00.000Z",
+    "last_edited_time": "2022-01-05T10:12:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -96,7 +165,7 @@
       "text": [
         {
           "type": "text",
-          "text": { "content": "購入したのは ", "link": null },
+          "text": { "content": "設定方法は ", "link": null },
           "annotations": {
             "bold": false,
             "italic": false,
@@ -105,15 +174,26 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "購入したのは ",
+          "plain_text": "設定方法は ",
           "href": null
         },
         {
           "type": "text",
-          "text": {
-            "content": "Blue Microphones Yeticaster",
-            "link": { "url": "https://amzn.to/3eDoDzp" }
+          "text": { "content": "mode: 'jit'", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
           },
+          "plain_text": "mode: 'jit'",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": { "content": " を追加するだけ。", "link": null },
           "annotations": {
             "bold": false,
             "italic": false,
@@ -122,13 +202,30 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Blue Microphones Yeticaster",
-          "href": "https://amzn.to/3eDoDzp"
-        },
+          "plain_text": " を追加するだけ。",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "d5dfe8a3-55a8-4d7c-993d-1b1771577666",
+    "created_time": "2022-01-05T10:07:00.000Z",
+    "last_edited_time": "2022-01-08T11:05:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "language": "javascript",
+      "text": [
         {
           "type": "text",
           "text": {
-            "content": " というモデルで、インターネットで評判を見たときに良さそうなものを選んだ。安い買い物ではなかったのだが、価格は信頼度を表すバロメータだと思っている。",
+            "content": "// tailwind.config.js\n  module.exports = {\n   mode: 'jit',\n    purge: [\n      // ...\n    ],\n    theme: {\n      // ...\n    }\n    // ...\n  }",
             "link": null
           },
           "annotations": {
@@ -139,7 +236,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": " というモデルで、インターネットで評判を見たときに良さそうなものを選んだ。安い買い物ではなかったのだが、価格は信頼度を表すバロメータだと思っている。",
+          "plain_text": "// tailwind.config.js\n  module.exports = {\n   mode: 'jit',\n    purge: [\n      // ...\n    ],\n    theme: {\n      // ...\n    }\n    // ...\n  }",
           "href": null
         }
       ]
@@ -147,9 +244,11 @@
   },
   {
     "object": "block",
-    "id": "98559d1c-815e-48d7-aefe-04597345d72f",
-    "created_time": "2022-01-01T04:25:00.000Z",
-    "last_edited_time": "2022-01-01T04:25:00.000Z",
+    "id": "36514aaf-5a7b-488b-8f88-1858d25fb026",
+    "created_time": "2022-01-05T10:14:00.000Z",
+    "last_edited_time": "2022-01-05T10:14:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -157,9 +256,11 @@
   },
   {
     "object": "block",
-    "id": "93d2b31b-0b73-4d42-8a58-3f3f71d5419e",
-    "created_time": "2022-01-01T04:25:00.000Z",
-    "last_edited_time": "2022-01-01T04:34:00.000Z",
+    "id": "4b137b0c-2c77-4e15-b6df-f02630c40947",
+    "created_time": "2022-01-05T10:14:00.000Z",
+    "last_edited_time": "2022-01-05T10:18:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -167,8 +268,22 @@
       "text": [
         {
           "type": "text",
+          "text": { "content": "[]", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "[]",
+          "href": null
+        },
+        {
+          "type": "text",
           "text": {
-            "content": "まだ1回しか配信できていないが、使い心地や音質に関しては概ね満足で、これはマイク本体の性能というわけではないのだが、アームに設置するタイプがかなり使いやすい。今まで服との擦れを気にしていたのが、全く気にしなくて良くなったし、いちいち取り出して装着するという手間も省けたのでかなり快適になった。配信や撮影の心理的なハードルが下がったのはかなり大きい。",
+            "content": " 表記を使うことで、rem の8の倍数単位ではうまく表しきれない ",
             "link": null
           },
           "annotations": {
@@ -179,7 +294,38 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "まだ1回しか配信できていないが、使い心地や音質に関しては概ね満足で、これはマイク本体の性能というわけではないのだが、アームに設置するタイプがかなり使いやすい。今まで服との擦れを気にしていたのが、全く気にしなくて良くなったし、いちいち取り出して装着するという手間も省けたのでかなり快適になった。配信や撮影の心理的なハードルが下がったのはかなり大きい。",
+          "plain_text": " 表記を使うことで、rem の8の倍数単位ではうまく表しきれない ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": { "content": "top-[117px]", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "top-[117px]",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " 的なやつが表現可能になって、これが一番大きい。記述はこんな感じ。",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " 的なやつが表現可能になって、これが一番大きい。記述はこんな感じ。",
           "href": null
         }
       ]
@@ -187,9 +333,45 @@
   },
   {
     "object": "block",
-    "id": "51b04c3b-d76c-40b4-ad56-72e971aa3f33",
-    "created_time": "2022-01-01T04:34:00.000Z",
-    "last_edited_time": "2022-01-01T04:34:00.000Z",
+    "id": "e15b31b2-f755-4cd0-bad8-b07b9ab93746",
+    "created_time": "2022-01-05T10:15:00.000Z",
+    "last_edited_time": "2022-01-08T11:05:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "language": "javascript",
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "<div class=\"top-[117px] lg:top-[344px]\">\n  <!-- ... -->\n</div>",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "<div class=\"top-[117px] lg:top-[344px]\">\n  <!-- ... -->\n</div>",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "05bf9049-2a33-40bc-8ec0-ea371d99d091",
+    "created_time": "2022-01-05T10:15:00.000Z",
+    "last_edited_time": "2022-01-05T10:15:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -197,9 +379,11 @@
   },
   {
     "object": "block",
-    "id": "3fc6f360-0542-4750-8bb0-2df3536b537b",
-    "created_time": "2022-01-01T04:34:00.000Z",
-    "last_edited_time": "2022-01-01T04:34:00.000Z",
+    "id": "2e75d1aa-057d-4ecd-af8f-9319137aa612",
+    "created_time": "2022-01-05T10:15:00.000Z",
+    "last_edited_time": "2022-01-05T10:17:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -208,7 +392,7 @@
         {
           "type": "text",
           "text": {
-            "content": "機材も買ったことだし、2022 年はもうひと踏ん張り YouTube 活動を頑張ってみようかと思っているところ。",
+            "content": "ON にした方が圧倒的に表現の幅が広がるので良い。（最初はこの機能を知らなくてコンフィグに色々足してしまっていた……過去の自分に教えてあげたい）",
             "link": null
           },
           "annotations": {
@@ -219,7 +403,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "機材も買ったことだし、2022 年はもうひと踏ん張り YouTube 活動を頑張ってみようかと思っているところ。",
+          "plain_text": "ON にした方が圧倒的に表現の幅が広がるので良い。（最初はこの機能を知らなくてコンフィグに色々足してしまっていた……過去の自分に教えてあげたい）",
           "href": null
         }
       ]
@@ -227,9 +411,47 @@
   },
   {
     "object": "block",
-    "id": "1995a6a5-d72f-46af-a376-585db8eaa5c3",
-    "created_time": "2022-01-01T04:25:00.000Z",
-    "last_edited_time": "2022-01-01T04:35:00.000Z",
+    "id": "24170099-74c2-4093-9a73-b04c9face9ce",
+    "created_time": "2022-01-05T10:30:00.000Z",
+    "last_edited_time": "2022-01-05T10:30:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": { "text": [] }
+  },
+  {
+    "object": "block",
+    "id": "20264c11-f569-4dfe-8206-3598701bce7c",
+    "created_time": "2022-01-05T10:16:00.000Z",
+    "last_edited_time": "2022-01-05T10:30:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "8ba79104-ae58-4c59-8494-37429bd1f824",
+    "created_time": "2022-01-05T10:30:00.000Z",
+    "last_edited_time": "2022-01-05T10:30:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": { "text": [] }
+  },
+  {
+    "object": "block",
+    "id": "736cce60-3a45-465c-8eab-42ee5439cdbb",
+    "created_time": "2022-01-05T10:30:00.000Z",
+    "last_edited_time": "2022-01-05T10:30:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -237,7 +459,7 @@
       "text": [
         {
           "type": "text",
-          "text": { "content": "▷ ", "link": null },
+          "text": { "content": "追記", "link": null },
           "annotations": {
             "bold": false,
             "italic": false,
@@ -246,34 +468,19 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "▷ ",
+          "plain_text": "追記",
           "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "Blue Microphones Yeticaster ストリーミングセット",
-            "link": { "url": "https://amzn.to/3pIC07B" }
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Blue Microphones Yeticaster ストリーミングセット",
-          "href": "https://amzn.to/3pIC07B"
         }
       ]
     }
   },
   {
     "object": "block",
-    "id": "b128db2f-a446-4268-9a09-c29da2480604",
-    "created_time": "2022-01-01T04:35:00.000Z",
-    "last_edited_time": "2022-01-01T04:35:00.000Z",
+    "id": "a61d50bc-ccc0-4c7f-aeca-93ae7a7ec02d",
+    "created_time": "2022-01-05T10:30:00.000Z",
+    "last_edited_time": "2022-01-05T10:30:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -281,23 +488,9 @@
       "text": [
         {
           "type": "text",
-          "text": { "content": "▷ ", "link": null },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "▷ ",
-          "href": null
-        },
-        {
-          "type": "text",
           "text": {
-            "content": "YouTube",
-            "link": { "url": "https://www.youtube.com/channel/UCMBoZr4HyLmDGyv5tIQ006g" }
+            "content": "色々調べてたら、素で入れれば v3 使える？というかそもそもモジュールは何を提供してくれてるんだ？分からないことが増えてしまった。",
+            "link": null
           },
           "annotations": {
             "bold": false,
@@ -307,24 +500,22 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "YouTube",
-          "href": "https://www.youtube.com/channel/UCMBoZr4HyLmDGyv5tIQ006g"
-        },
-        {
-          "type": "text",
-          "text": { "content": " ", "link": null },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " ",
+          "plain_text": "色々調べてたら、素で入れれば v3 使える？というかそもそもモジュールは何を提供してくれてるんだ？分からないことが増えてしまった。",
           "href": null
         }
       ]
     }
+  },
+  {
+    "object": "block",
+    "id": "234cea00-d6d7-4f55-b23c-328800172e75",
+    "created_time": "2022-01-05T10:30:00.000Z",
+    "last_edited_time": "2022-01-05T10:30:00.000Z",
+    "created_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "last_edited_by": { "object": "user", "id": "ee018de1-6ec8-4b1e-a645-9702282647d1" },
+    "has_children": false,
+    "archived": false,
+    "type": "embed",
+    "embed": { "caption": [], "url": "https://twitter.com/___35d/status/1478674765913391104" }
   }
 ]
