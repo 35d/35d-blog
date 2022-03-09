@@ -9,7 +9,7 @@ import Tags from '../components/Tags'
 import { getBlocks, getNotionData, getPage } from '../lib/getNotionData'
 import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
 import saveImageIfNeeded from '../lib/saveImage'
-// import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
+import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
@@ -113,7 +113,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   }
 }
 
-export default function Post({ page, blocks }) {
+export default function Post({ page, blocks, navLink }) {
   if (!page || !blocks) {
     return <div>ページが存在しません</div>
   }
@@ -152,14 +152,15 @@ export default function Post({ page, blocks }) {
           <NoteLink />
         </div>
       )}
-
       {dayjs(date).diff(dayjs(), 'year') < -1 && (
         <p className="text-pink-700 dark:text-pink-600">
           <span className="font-semibold">⚠ </span>この記事は内容が古くなっています
         </p>
       )}
+      <div className="mb-8">{blocks.map(getJsxElementFromNotionBlock)}</div>
 
-      {blocks.map(getJsxElementFromNotionBlock)}
+      {/* 前の記事 / 次の記事 */}
+      <NextPreviousNavigationLinks navLink={navLink} />
     </>
   )
 }
@@ -168,12 +169,16 @@ export const getStaticPaths = async () => {
   // データベースのすべてのデータを取得する
   // Slug のパスを静的に生成するのに必要
   const database = await getNotionData(databaseId)
+
+  // Slug のパスの静的生成
+  const paths = database.map((page) => ({
+    params: {
+      slug: page.properties.Slug.rich_text[0].plain_text,
+    },
+  }))
+
   return {
-    paths: database.map((page) => ({
-      params: {
-        slug: page.properties.Slug.rich_text[0].plain_text,
-      },
-    })),
+    paths,
     fallback: 'blocking',
   }
 }
@@ -181,16 +186,34 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { slug } = context.params
 
-  // 指定したスラッグのもののみを取得する
-  const database = await getNotionData(databaseId, {
-    and: [
-      {
-        property: 'Slug',
-        text: {
-          equals: slug,
-        },
-      },
-    ],
+  const allData = await getNotionData(databaseId, {
+    // NOTE: 2022/03/09 全てのデータを取得することにするのでコメントアウト（ページネーション用）
+    // Notion API がカイゼンされたらロジックを見直す
+    //
+    // and: [
+    //   {
+    //     property: 'Slug',
+    //     text: {
+    //       equals: slug,
+    //     },
+    //   },
+    // ],
+  })
+
+  let nextIndex: number, prevIndex: number
+
+  // Slug に一致するものだけをフィルタ
+  const database = allData.filter((_, index) => {
+    if (_.properties.Slug.rich_text[0].plain_text === slug) {
+      // 最初の記事でなければ次（未来）の記事が存在
+      if (index !== 0) nextIndex = index - 1
+
+      // 最後の記事でなければ前（過去）の記事が存在
+      if (index !== allData.length - 1) prevIndex = index + 1
+
+      return true
+    }
+    return false
   })
 
   // ページのメタデータを取得する
@@ -198,6 +221,18 @@ export const getStaticProps = async (context) => {
 
   // ページの本文を取得する
   const blocks = await getBlocks(database[0].id)
+
+  // ナビゲーション用
+  const navLink: NavLink = {
+    next: {
+      title: allData[nextIndex]?.properties.Page.title[0]?.plain_text || '',
+      slug: allData[nextIndex]?.properties.Slug.rich_text[0].plain_text || '',
+    },
+    prev: {
+      title: allData[prevIndex]?.properties.Page.title[0]?.plain_text || '',
+      slug: allData[prevIndex]?.properties.Slug.rich_text[0].plain_text || '',
+    },
+  }
 
   const childrenBlocks = await Promise.all(
     blocks
@@ -224,6 +259,7 @@ export const getStaticProps = async (context) => {
     props: {
       page,
       blocks: blocksWithChildren,
+      navLink,
     },
     // revalidate: 6000,
   }

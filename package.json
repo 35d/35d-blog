@@ -29,6 +29,7 @@
     "yarn": "^1.22.15"
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.3.1",
     "@types/rss": "^0.0.29",
     "autoprefixer": "10.2.5",
     "babel-plugin-prismjs": "^2.1.0",
