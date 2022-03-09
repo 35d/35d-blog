@@ -46,8 +46,8 @@
         {
           "type": "text",
           "text": {
-            "content": "https://tailwindcss.com/blog/tailwindcss-v3",
-            "link": { "url": "https://tailwindcss.com/blog/tailwindcss-v3" }
+            "content": "https://blog.35d.jp.com/blog/tailwindcss-v3",
+            "link": { "url": "https://blog.35d.jp.com/blog/tailwindcss-v3" }
           },
           "annotations": {
             "bold": false,

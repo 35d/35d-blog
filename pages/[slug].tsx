@@ -86,7 +86,13 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
       )
 
     case 'divider':
-      return <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
+      return (
+        <p key={id} className={'text-center'}>
+          🐈
+        </p>
+      )
+
+    // <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
 
     case 'quote':
       return (

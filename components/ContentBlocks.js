@@ -1,10 +1,17 @@
+import ExtLink from './ExtLink'
+
 const SpanText = ({ text, id }) => {
   if (!text) return null
+
   return text.map((value, i) => {
     const {
       annotations: { bold, code, color, italic, strikethrough, underline },
       text,
     } = value
+
+    // 外部リンクかどうか 通常テキストだったら false
+    const isExtLink = !!text.link && !text.link.url.includes('blog.35d.jp')
+
     return (
       <span
         key={id + i}
@@ -20,9 +27,16 @@ const SpanText = ({ text, id }) => {
         style={color !== 'default' ? { color } : {}}
       >
         {text.link ? (
-          <a href={text.link.url} className="underline">
-            {text.content}
-          </a>
+          // 外部リンクだった場合
+          isExtLink ? (
+            <ExtLink href={text.link.url} className="underline">
+              {text.content}
+            </ExtLink>
+          ) : (
+            <a href={text.link.url} className="underline">
+              {text.content}
+            </a>
+          )
         ) : (
           text.content
         )}
