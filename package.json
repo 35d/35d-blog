@@ -14,7 +14,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@notionhq/client": "0.4.4",
+    "@notionhq/client": "^1.0.0",
     "@types/styled-components": "^5.1.14",
     "add": "^2.0.6",
     "dayjs": "^1.10.7",
