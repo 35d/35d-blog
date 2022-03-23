@@ -5,6 +5,7 @@ import results1 from '../results1.json'
 import results2 from '../results2.json'
 import results3 from '../results3.json'
 import results4 from '../results4.json' // book 用
+import results5 from '../results5.json' // web stock 用
 
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
@@ -17,7 +18,7 @@ const IS_DEVELOPMENT = process.env.NODE_ENV === 'development'
  * @param {string} databaseId
  */
 export const getNotionData = async (databaseId: string, _filter: TODO = undefined) => {
-  // if (IS_DEVELOPMENT) return results4
+  // if (IS_DEVELOPMENT) return results5
 
   console.log('🤟 getNotionData, fetch start ...')
   let results = []
@@ -66,7 +67,7 @@ export const getNotionData = async (databaseId: string, _filter: TODO = undefine
   console.log('🤟 getNotionData, fetch done')
 
   // 書き込み
-  // fs.writeFile('results4.json', JSON.stringify(results), (err) => {
+  // fs.writeFile('results5.json', JSON.stringify(results), (err) => {
   //   if (err) throw err
   //   console.log('正常に書き込みが完了しました')
   // })

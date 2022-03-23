@@ -1,3 +1,4 @@
+import dayjs from 'dayjs'
 import Link from 'next/link'
 import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
@@ -33,9 +34,11 @@ const StockArticles = (props) => {
   // [0] まずはすべて代入
   props.stockArticles
     .map((_) => _.properties)
-    .filter((_) => !!_.Date.select)
+    // 公開フラグが True のものだけ残す
+    .filter((_) => _.Published?.checkbox)
+    .map((_) => ({ ..._, groupedDate: dayjs(_.Date.created_time).format('YYYY/MM') }))
     .forEach((_) => {
-      tempStockArticlesForRender.push({ date: _.Date.select.name, stockArticles: [_] })
+      tempStockArticlesForRender.push({ date: _.groupedDate, stockArticles: [_] })
     })
 
   // console.log(tempStockArticlesForRender)
