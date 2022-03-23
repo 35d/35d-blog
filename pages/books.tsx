@@ -35,7 +35,7 @@ const StockArticles = (props) => {
     .filter((_) => _.Published?.checkbox)
     //
     .map((_) => {
-      const array = (_.Date2.date.start as string).split('-') // [2022, 01, 24] 2022-01-24 の場合
+      const array = (_.Date.date.start as string).split('-') // [2022, 01, 24] 2022-01-24 の場合
       return { ..._, groupedDate: array[0] + '/' + array[1] }
     })
     .forEach((_) => {
