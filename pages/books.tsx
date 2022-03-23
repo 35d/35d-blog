@@ -31,9 +31,16 @@ const StockArticles = (props) => {
   // [0] まずはすべて代入
   props.books
     .map((_) => _.properties)
+    // 公開フラグが True のものだけ残す
     .filter((_) => _.Published?.checkbox)
+    //
+    .map((_) => {
+      const array = (_.Date2.date.start as string).split('-') // [2022, 01, 24] 2022-01-24 の場合
+      return { ..._, groupedDate: array[0] + '/' + array[1] }
+    })
     .forEach((_) => {
-      tempStockArticlesForRender.push({ date: _.Date.select?.name, books: [_] })
+      console.log(_)
+      tempStockArticlesForRender.push({ date: _.groupedDate, books: [_] })
     })
 
   // [1] ソートする
