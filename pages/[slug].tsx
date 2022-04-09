@@ -22,20 +22,20 @@ type Post = any
 const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   const { type, id } = block
   const value = block[type]
-  const { text } = value
+  const texts: any[] = value?.rich_text || []
 
   switch (type) {
     case 'paragraph':
-      return <Text text={value.text} id={id} key={id} />
+      return <Text text={texts} id={id} key={id} />
 
     case 'heading_1':
-      return <Heading text={text} id={id} level={type} key={id} />
+      return <Heading text={texts} id={id} level={type} key={id} />
 
     case 'heading_2':
-      return <Heading text={text} id={id} level={type} key={id} />
+      return <Heading text={texts} id={id} level={type} key={id} />
 
     case 'heading_3':
-      return <Heading text={text} id={id} level={type} key={id} />
+      return <Heading text={texts} id={id} level={type} key={id} />
 
     case 'bulleted_list_item':
     case 'numbered_list_item':
@@ -100,7 +100,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
           className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm mb-4"
           key={id}
         >
-          {value.text[0].plain_text}
+          {value.rich_text[0].plain_text}
         </blockquote>
       )
 
@@ -119,11 +119,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   }
 }
 
-export default function Post({
-  page,
-  blocks,
-  // navLink
-}) {
+export default function Post({ page, blocks, navLink }) {
   if (!page || !blocks) {
     return <div>ページが存在しません</div>
   }
@@ -170,7 +166,7 @@ export default function Post({
       <div className="mb-8">{blocks.map(getJsxElementFromNotionBlock)}</div>
 
       {/* 前の記事 / 次の記事 */}
-      {/* <NextPreviousNavigationLinks navLink={navLink} /> */}
+      <NextPreviousNavigationLinks navLink={navLink} />
     </>
   )
 }
@@ -200,14 +196,14 @@ export const getStaticProps = async (context) => {
     // NOTE: 2022/03/09 全てのデータを取得することにするのでコメントアウト（ページネーション用）
     // Notion API がカイゼンされたらロジックを見直す
     //
-    and: [
-      {
-        property: 'Slug',
-        text: {
-          equals: slug,
-        },
-      },
-    ],
+    // and: [
+    //   {
+    //     property: 'Slug',
+    //     rich_text: {
+    //       equals: slug,
+    //     },
+    //   },
+    // ],
   })
 
   let nextIndex: number, prevIndex: number
@@ -269,7 +265,7 @@ export const getStaticProps = async (context) => {
     props: {
       page,
       blocks: blocksWithChildren,
-      // navLink,
+      navLink,
     },
     // revalidate: 6000,
   }
