@@ -119,7 +119,11 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   }
 }
 
-export default function Post({ page, blocks, navLink }) {
+export default function Post({
+  page,
+  blocks,
+  // navLink
+}) {
   if (!page || !blocks) {
     return <div>ページが存在しません</div>
   }
@@ -166,7 +170,7 @@ export default function Post({ page, blocks, navLink }) {
       <div className="mb-8">{blocks.map(getJsxElementFromNotionBlock)}</div>
 
       {/* 前の記事 / 次の記事 */}
-      <NextPreviousNavigationLinks navLink={navLink} />
+      {/* <NextPreviousNavigationLinks navLink={navLink} /> */}
     </>
   )
 }
@@ -196,14 +200,14 @@ export const getStaticProps = async (context) => {
     // NOTE: 2022/03/09 全てのデータを取得することにするのでコメントアウト（ページネーション用）
     // Notion API がカイゼンされたらロジックを見直す
     //
-    // and: [
-    //   {
-    //     property: 'Slug',
-    //     text: {
-    //       equals: slug,
-    //     },
-    //   },
-    // ],
+    and: [
+      {
+        property: 'Slug',
+        text: {
+          equals: slug,
+        },
+      },
+    ],
   })
 
   let nextIndex: number, prevIndex: number
@@ -265,7 +269,7 @@ export const getStaticProps = async (context) => {
     props: {
       page,
       blocks: blocksWithChildren,
-      navLink,
+      // navLink,
     },
     // revalidate: 6000,
   }
