@@ -39,7 +39,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
 
     case 'bulleted_list_item':
     case 'numbered_list_item':
-      return <ListItem key={id} text={value.text} id={id} />
+      return <ListItem key={id} text={texts} id={id} />
 
     case 'to_do':
       return <ToDo id={id} key={id} value={value} text={value.text} />
@@ -81,7 +81,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
     case 'code':
       return (
         <Code key={id} language={value.language}>
-          {value.text[0]?.plain_text}
+          {texts[0]?.plain_text}
         </Code>
       )
 
