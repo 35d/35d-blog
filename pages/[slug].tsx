@@ -22,24 +22,25 @@ type Post = any
 const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   const { type, id } = block
   const value = block[type]
-  const texts: any[] = value?.rich_text || []
+  const rich_texts: any[] = value?.rich_text || []
+  const texts: any[] = value?.text || []
 
   switch (type) {
     case 'paragraph':
-      return <Text text={texts} id={id} key={id} />
+      return <Text text={rich_texts} id={id} key={id} />
 
     case 'heading_1':
-      return <Heading text={texts} id={id} level={type} key={id} />
+      return <Heading text={rich_texts} id={id} level={type} key={id} />
 
     case 'heading_2':
-      return <Heading text={texts} id={id} level={type} key={id} />
+      return <Heading text={rich_texts} id={id} level={type} key={id} />
 
     case 'heading_3':
-      return <Heading text={texts} id={id} level={type} key={id} />
+      return <Heading text={rich_texts} id={id} level={type} key={id} />
 
     case 'bulleted_list_item':
     case 'numbered_list_item':
-      return <ListItem key={id} text={texts} id={id} />
+      return <ListItem key={id} text={rich_texts} id={id} />
 
     case 'to_do':
       return <ToDo id={id} key={id} value={value} text={value.text} />
@@ -81,7 +82,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
     case 'code':
       return (
         <Code key={id} language={value.language}>
-          {texts[0]?.plain_text}
+          {code}
         </Code>
       )
 
@@ -119,7 +120,11 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   }
 }
 
-export default function Post({ page, blocks, navLink }) {
+export default function Post({
+  page,
+  blocks,
+  // navLink
+}) {
   if (!page || !blocks) {
     return <div>ページが存在しません</div>
   }
@@ -166,7 +171,7 @@ export default function Post({ page, blocks, navLink }) {
       <div className="mb-8">{blocks.map(getJsxElementFromNotionBlock)}</div>
 
       {/* 前の記事 / 次の記事 */}
-      <NextPreviousNavigationLinks navLink={navLink} />
+      {/* <NextPreviousNavigationLinks navLink={navLink} /> */}
     </>
   )
 }
@@ -206,16 +211,16 @@ export const getStaticProps = async (context) => {
     // ],
   })
 
-  let nextIndex: number, prevIndex: number
+  // let nextIndex: number, prevIndex: number
 
   // Slug に一致するものだけをフィルタ
   const database = allData.filter((_, index) => {
     if (_.properties.Slug.rich_text[0].plain_text === slug) {
       // 最初の記事でなければ次（未来）の記事が存在
-      if (index !== 0) nextIndex = index - 1
+      // if (index !== 0) nextIndex = index - 1
 
       // 最後の記事でなければ前（過去）の記事が存在
-      if (index !== allData.length - 1) prevIndex = index + 1
+      // if (index !== allData.length - 1) prevIndex = index + 1
 
       return true
     }
@@ -229,16 +234,16 @@ export const getStaticProps = async (context) => {
   const blocks = await getBlocks(database[0].id)
 
   // ナビゲーション用
-  const navLink: NavLink = {
-    next: {
-      title: allData[nextIndex]?.properties.Page.title[0]?.plain_text || '',
-      slug: allData[nextIndex]?.properties.Slug.rich_text[0].plain_text || '',
-    },
-    prev: {
-      title: allData[prevIndex]?.properties.Page.title[0]?.plain_text || '',
-      slug: allData[prevIndex]?.properties.Slug.rich_text[0].plain_text || '',
-    },
-  }
+  // const navLink: NavLink = {
+  //   next: {
+  //     title: allData[nextIndex]?.properties.Page.title[0]?.plain_text || '',
+  //     slug: allData[nextIndex]?.properties.Slug.rich_text[0].plain_text || '',
+  //   },
+  //   prev: {
+  //     title: allData[prevIndex]?.properties.Page.title[0]?.plain_text || '',
+  //     slug: allData[prevIndex]?.properties.Slug.rich_text[0].plain_text || '',
+  //   },
+  // }
 
   const childrenBlocks = await Promise.all(
     blocks
@@ -265,7 +270,7 @@ export const getStaticProps = async (context) => {
     props: {
       page,
       blocks: blocksWithChildren,
-      navLink,
+      // navLink,
     },
     // revalidate: 6000,
   }
