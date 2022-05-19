@@ -80,7 +80,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
       }
 
     case 'code':
-      const code = texts[0]?.plain_text || ''
+      const code = rich_texts[0]?.plain_text || ''
       return (
         <Code key={id} language={value.language}>
           {code}

@@ -1,7 +1,7 @@
 import { Client } from '@notionhq/client'
 import { sleep } from './sleep'
 import fs from 'fs'
-import results1 from '../results1.json'
+import results1 from '../results1.json' // 記事詳細
 import results2 from '../results2.json'
 import results3 from '../results3.json'
 import results4 from '../results4.json' // book 用
@@ -18,7 +18,7 @@ const IS_DEVELOPMENT = process.env.NODE_ENV === 'development'
  * @param {string} databaseId
  */
 export const getNotionData = async (databaseId: string, _filter: TODO = undefined) => {
-  // if (IS_DEVELOPMENT) return results5
+  if (IS_DEVELOPMENT) return results1
 
   console.log('🤟 getNotionData, fetch start ...')
   let results = []
