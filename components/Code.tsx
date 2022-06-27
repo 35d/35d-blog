@@ -2,6 +2,7 @@ import Prism from 'prismjs'
 import 'prismjs/components/prism-bash'
 import 'prismjs/components/prism-json'
 import 'prismjs/components/prism-jsx'
+import 'prismjs/components/prism-lua'
 import 'prismjs/components/prism-yaml'
 import React, { useEffect } from 'react'
 
@@ -15,6 +16,9 @@ const getLanguageLabel = (language: string) => {
   switch (language) {
     case 'javascript':
       languageLabel = 'JavaScript'
+      break
+    case 'Lua':
+      languageLabel = 'Lua'
       break
     default:
       languageLabel = language
