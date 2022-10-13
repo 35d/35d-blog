@@ -4,6 +4,7 @@ import 'prismjs/components/prism-json'
 import 'prismjs/components/prism-jsx'
 import 'prismjs/components/prism-lua'
 import 'prismjs/components/prism-yaml'
+import 'prismjs/components/prism-markdown'
 import React, { useEffect } from 'react'
 
 /**
@@ -40,7 +41,11 @@ const Code = ({ children, language }) => {
       </p>
       <code
         dangerouslySetInnerHTML={{
-          __html: Prism.highlight(children, Prism.languages[language]),
+          __html: Prism.highlight(
+            children,
+            Prism.languages[language] || Prism.languages['markdown'],
+            language
+          ),
         }}
       />
 
