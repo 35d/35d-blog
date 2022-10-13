@@ -94,15 +94,14 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
         </p>
       )
 
-    // <hr className="w-full border-1 border-gray-300 dark:border-gray-400" key={id} />
-
     case 'quote':
       return (
         <blockquote
           className="italic border-neutral-500 quote border-l-2 px-4 py-1 text-sm mb-4"
           key={id}
         >
-          {value.rich_text[0].plain_text}
+          {value.rich_text.map((_) => _.plain_text)}
+          {value.children?.map(getJsxElementFromNotionBlock)}
         </blockquote>
       )
 
