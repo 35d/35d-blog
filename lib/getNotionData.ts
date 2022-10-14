@@ -1,16 +1,16 @@
 import { Client } from '@notionhq/client'
 import { sleep } from './sleep'
 import fs from 'fs'
-import results1 from '../results1.json' // 記事詳細
-import results2 from '../results2.json'
-import results3 from '../results3.json'
-import results4 from '../results4.json' // book 用
-import results5 from '../results5.json' // web stock 用
+import results1 from '../results1.json' // 記事一覧
+import results2 from '../results2.json' // 記事詳細・本文（部分的なデータにしかならないので注意）
+import results3 from '../results3.json' // 記事のメタ情報
+import results4 from '../results4.json' // book 用 記事一覧
+import results5 from '../results5.json' // web stock 用 記事一覧
 
-// 開発モードの場合はローカルに保存したデータを利用するかどうか
+// ローカルに保存したデータを利用するかどうか（開発時のみ true にする）
 const IS_USE_LOCAL_DATA = false
 
-// ローカル開発用のデータを新しくするかどうか
+// ローカル開発用のデータを更新するかどうか
 const IS_DATA_REFRESH_MODE = true
 
 const notion = new Client({
@@ -70,9 +70,9 @@ export const getNotionData = async (databaseId: string, _filter: TODO = undefine
 
   console.log('🤟 getNotionData, fetch done')
 
-  // データリフレッシュ書き込み
+  // データリフレッシュ・書き込み
   if (IS_DATA_REFRESH_MODE) {
-    fs.writeFile('results5.json', JSON.stringify(results), (err) => {
+    fs.writeFile('results1.json', JSON.stringify(results), (err) => {
       if (err) throw err
       console.log('正常に書き込みが完了しました')
     })
@@ -109,7 +109,7 @@ export const getBlocks = async (blockId) => {
   if (IS_DATA_REFRESH_MODE) {
     fs.writeFile('results2.json', JSON.stringify(results), (err) => {
       if (err) throw err
-      console.log('正常に書き込みが完了しました')
+      console.log('👌 results2.json に正常に書き込みが完了しました')
     })
   }
 
