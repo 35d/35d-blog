@@ -1,3 +1,4 @@
+import Image from 'next/future/image'
 import dayjs from 'dayjs'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import Code from '../components/Code'
@@ -52,13 +53,21 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
       // 外部埋め込み画像は現在非対応
       if (block.image.type === 'file') {
         return (
-          <figure key={id} className={'mb-3'}>
-            <img
+          <figure key={id} className={'mb-3 relative'}>
+            <Image
+              src={'/blogImages/' + block.id + '.png'}
+              alt={getAltStr(value.caption)}
+              fill={false}
+              width={900}
+              height={600}
+              style={{ width: '100%', height: 'auto' }}
+            />
+            {/* <img
               // src={value.file.url} // Notion s3 を使用する場合
               src={'/blogImages/' + block.id + '.png'}
               alt={getAltStr(value.caption)}
               className={'mb-2'}
-            />
+            /> */}
             <figcaption>{getCaptionStr(value.caption)}</figcaption>
           </figure>
         )
