@@ -64,19 +64,19 @@ export const Heading = ({ text, level, id }) => {
   switch (level) {
     case 'heading_1':
       return (
-        <h1 className="font-bold text-lg md:text-xl tracking-tight my-2 ">
+        <h1 className="font-bold text-lg md:text-xl tracking-tight my-2 md:my-3">
           {text[0].text.content}
         </h1>
       )
     case 'heading_2':
       return (
-        <h2 className="font-bold text-lg md:text-xl tracking-tight my-2 ">
+        <h2 className="font-bold text-lg md:text-xl tracking-tight my-2 md:my-3">
           {text[0].text.content}
         </h2>
       )
     case 'heading_3':
       return (
-        <h3 className="font-bold text-lg md:text-xl tracking-tight my-2 ">
+        <h3 className="font-bold text-lg md:text-xl tracking-tight my-2 md:my-3">
           {text[0].text.content}
         </h3>
       )
