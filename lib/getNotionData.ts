@@ -8,10 +8,10 @@ import results4 from '../results4.json' // book 用 記事一覧
 import results5 from '../results5.json' // web stock 用 記事一覧
 
 // ローカルに保存したデータを利用するかどうか（開発時のみ true にする）
-const IS_USE_LOCAL_DATA = false
+const SHOULD_USE_LOCAL_DATA = false
 
 // ローカル開発用のデータを更新するかどうか
-const IS_DATA_REFRESH_MODE = true
+const SHOULD_REFRESH_LOCAL_DATA = false
 
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
@@ -21,8 +21,8 @@ const notion = new Client({
  * databaseId を引数に取り、Notion のデータベースから記事全件を取得し返却する
  * @param {string} databaseId
  */
-export const getNotionData = async (databaseId: string, _filter: TODO = undefined) => {
-  if (IS_USE_LOCAL_DATA) return results1
+export const getNotionDataList = async (databaseId: string, _filter: TODO = undefined) => {
+  if (SHOULD_USE_LOCAL_DATA) return results1
 
   console.log('🤟 getNotionData, fetch start ...')
   let results = []
@@ -71,7 +71,7 @@ export const getNotionData = async (databaseId: string, _filter: TODO = undefine
   console.log('🤟 getNotionData, fetch done')
 
   // データリフレッシュ・書き込み
-  if (IS_DATA_REFRESH_MODE) {
+  if (SHOULD_REFRESH_LOCAL_DATA) {
     fs.writeFile('results1.json', JSON.stringify(results), (err) => {
       if (err) throw err
       console.log('正常に書き込みが完了しました')
@@ -82,7 +82,7 @@ export const getNotionData = async (databaseId: string, _filter: TODO = undefine
 }
 
 export const getBlocks = async (blockId) => {
-  if (IS_USE_LOCAL_DATA) return results2
+  if (SHOULD_USE_LOCAL_DATA) return results2
 
   console.log('👌 getBlocks, fetch start ...')
 
@@ -106,7 +106,7 @@ export const getBlocks = async (blockId) => {
 
   console.log('👌 getBlocks, fetch done')
 
-  if (IS_DATA_REFRESH_MODE) {
+  if (SHOULD_REFRESH_LOCAL_DATA) {
     fs.writeFile('results2.json', JSON.stringify(results), (err) => {
       if (err) throw err
       console.log('👌 results2.json に正常に書き込みが完了しました')
@@ -117,11 +117,11 @@ export const getBlocks = async (blockId) => {
 }
 
 export const getPage = async (pageId) => {
-  if (IS_USE_LOCAL_DATA) return results3
+  if (SHOULD_USE_LOCAL_DATA) return results3
 
   const response = await notion.pages.retrieve({ page_id: pageId })
 
-  if (IS_DATA_REFRESH_MODE) {
+  if (SHOULD_REFRESH_LOCAL_DATA) {
     fs.writeFile('results3.json', JSON.stringify(response), (err) => {
       if (err) throw err
       console.log('正常に書き込みが完了しました')

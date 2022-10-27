@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import PostItem from '../components/PostItem'
-import { getNotionData } from '../lib/getNotionData'
+import { getNotionDataList } from '../lib/getNotionData'
 
 export const useDarkMode = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
@@ -50,7 +50,7 @@ export default function Home({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const database = await getNotionData(process.env.NOTION_DATABASE_ID)
+  const database = await getNotionDataList(process.env.NOTION_DATABASE_ID)
 
   return {
     props: {

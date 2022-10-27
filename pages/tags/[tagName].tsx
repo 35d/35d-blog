@@ -2,12 +2,12 @@ import React from 'react'
 import BlockHeading from '../../components/BlockHeading'
 import Header from '../../components/Header'
 import PostItem from '../../components/PostItem'
-import { getNotionData } from '../../lib/getNotionData'
+import { getNotionDataList } from '../../lib/getNotionData'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
 export async function getStaticProps({ params: { tagName } }) {
-  const database = await getNotionData(databaseId, {
+  const database = await getNotionDataList(databaseId, {
     and: [
       {
         property: 'Tag',
@@ -55,7 +55,7 @@ export async function getStaticProps({ params: { tagName } }) {
 // Return our list of blog posts to prerender
 export async function getStaticPaths() {
   // データベースのすべてのデータを取得する
-  const database = await getNotionData(databaseId)
+  const database = await getNotionDataList(databaseId)
 
   // 重複込みでタグのデータを詰めた配列['IFTTT', 'Slack', 'IFTTT', ...]
   let duplicateTagArray = []
