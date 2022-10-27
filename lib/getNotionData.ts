@@ -8,7 +8,7 @@ import results4 from '../results4.json' // book 用 記事一覧
 import results5 from '../results5.json' // web stock 用 記事一覧
 
 // ローカルに保存したデータを利用するかどうか（開発時のみ true にする）
-const SHOULD_USE_LOCAL_DATA = true
+const SHOULD_USE_LOCAL_DATA = false
 
 // ローカル開発用のデータを更新するかどうか
 const SHOULD_REFRESH_LOCAL_DATA = false

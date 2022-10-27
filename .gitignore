@@ -35,3 +35,6 @@ yarn-error.log*
 
 # ブログ記事内の画像
 /public/blogImages
+
+# ビルドキャッシュ用
+/article-list-cache.json

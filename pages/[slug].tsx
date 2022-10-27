@@ -11,6 +11,7 @@ import { getBlocks, getNotionDataList, getPage } from '../lib/getNotionData'
 import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
 import saveImageIfNeeded from '../lib/saveImage'
 import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
+import { getArticleList } from '../models/article'
 
 const databaseId = process.env.NOTION_DATABASE_ID
 
@@ -186,7 +187,7 @@ export default function Post({
 export const getStaticPaths = async () => {
   // データベースのすべてのデータを取得する
   // Slug のパスを静的に生成するのに必要
-  const database = await getNotionDataList(databaseId)
+  const database = await getArticleList()
 
   // Slug のパスの静的生成
   const paths = database.map((page) => ({
@@ -204,19 +205,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { slug } = context.params
 
-  const allData = await getNotionDataList(databaseId, {
-    // NOTE: 2022/03/09 全てのデータを取得することにするのでコメントアウト（ページネーション用）
-    // Notion API がカイゼンされたらロジックを見直す
-    //
-    // and: [
-    //   {
-    //     property: 'Slug',
-    //     rich_text: {
-    //       equals: slug,
-    //     },
-    //   },
-    // ],
-  })
+  const allData = await getArticleList()
 
   // let nextIndex: number, prevIndex: number
 
