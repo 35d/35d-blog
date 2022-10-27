@@ -2,13 +2,12 @@ import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
 import { ListItem } from '../components/PostItem'
-import { getNotionData } from '../lib/getNotionData'
+import { getNotionDataList } from '../lib/getNotionData'
 
-const LINK = '/2020-10-27-notion-stock-article'
 const ID = 'c08310cd9e3f480d8dfa92a092f7165e'
 
 export async function getStaticProps() {
-  const database = await getNotionData(ID)
+  const database = await getNotionDataList(ID)
 
   return {
     props: {
@@ -39,7 +38,6 @@ const StockArticles = (props) => {
       return { ..._, groupedDate: array[0] + '/' + array[1] }
     })
     .forEach((_) => {
-      console.log(_)
       tempStockArticlesForRender.push({ date: _.groupedDate, books: [_] })
     })
 

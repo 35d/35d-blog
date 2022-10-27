@@ -1,5 +1,5 @@
 import RSS from 'rss'
-import { getNotionData } from './getNotionData'
+import { getNotionDataList } from './getNotionData'
 
 export const generateFeedXml = async () => {
   const feed = new RSS({
@@ -12,7 +12,7 @@ export const generateFeedXml = async () => {
     image_url: 'https://blog.35d.jp/og-image.png',
   })
 
-  const database = await getNotionData(process.env.NOTION_DATABASE_ID)
+  const database = await getNotionDataList(process.env.NOTION_DATABASE_ID)
 
   database.forEach((post) => {
     const description = encodeURIComponent(

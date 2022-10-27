@@ -4,14 +4,14 @@ import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
 import { ListItem } from '../components/PostItem'
-import { getNotionData } from '../lib/getNotionData'
+import { getNotionDataList } from '../lib/getNotionData'
 
 const LINK = '/2020-10-27-notion-stock-article'
 const ID = '93082d8d4b424ac8b67bfa7d4a37e633'
 
 export async function getStaticProps() {
   console.log('=== getStaticProps stock-articles')
-  const database = await getNotionData(ID)
+  const database = await getNotionDataList(ID)
 
   return {
     props: {
