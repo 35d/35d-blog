@@ -1,18 +1,8 @@
 import Link from 'next/link'
-
-export interface NavLink {
-  next: {
-    slug: string
-    title: string
-  }
-  prev: {
-    slug: string
-    title: string
-  }
-}
+import { NavLinkViewModel } from '../../models/view/NextPreviousNavigationLinks'
 
 interface Props {
-  navLink: NavLink
+  navLink: NavLinkViewModel
 }
 
 const NextPreviousNavigationLinks = ({ navLink }: Props) => {
