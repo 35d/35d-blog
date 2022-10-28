@@ -1,15 +1,17 @@
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import PostItem from '../components/PostItem'
 import { getNotionDataList } from '../lib/getNotionData'
 
+// TODO: hooks ファイルとして切り出し
 export const useDarkMode = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
 
-  useEffect(() => {
-    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+  useLayoutEffect(() => {
+    setIsDarkMode(localStorage.getItem('theme') === 'dark')
+
     if (isDarkMode) {
       document.documentElement.classList.add('dark')
     } else {
@@ -17,10 +19,13 @@ export const useDarkMode = () => {
     }
   }, [isDarkMode])
 
+  // ダークモードとライトモードを切り替える
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode)
-    const switchedMode = localStorage.theme === 'dark' ? 'light' : 'dark'
-    localStorage.setItem('theme', switchedMode)
+
+    const switchedMode = isDarkMode ? 'light' : 'dark'
+    setIsDarkMode(switchedMode === 'dark')
+    window.localStorage.setItem('theme', switchedMode)
   }
 
   return { isDarkMode, toggleDarkMode }

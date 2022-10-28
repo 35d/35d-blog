@@ -9,7 +9,7 @@ import results5 from '../results5.json' // web stock 用 記事一覧
 
 // ローカルに保存したデータを利用するかどうか
 const SHOULD_USE_LOCAL_DATA =
-  false && // （開発時のみ true にすると便利）
+  true && // （開発時のみ true にすると良い。true にするとローカルデータを参照するようになる）
   process.env.NODE_ENV !== 'production' // true のままコミットしてしまっても大丈夫なように事故防止機構
 
 // ローカル開発用のデータを更新するかどうか
