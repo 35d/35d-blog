@@ -54,7 +54,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
       // 外部埋め込み画像は現在非対応
       if (block.image.type === 'file') {
         return (
-          <figure key={id} className={'mb-3 relative'}>
+          <figure key={id} className={'mb-3 relative flex flex-col gap-y-2'}>
             <Image
               src={'/blogImages/' + block.id + '.png'}
               alt={getAltStr(value.caption)}
@@ -69,7 +69,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
               alt={getAltStr(value.caption)}
               className={'mb-2'}
             /> */}
-            <figcaption>{getCaptionStr(value.caption)}</figcaption>
+            <figcaption className="opacity-85">{getCaptionStr(value.caption)}</figcaption>
           </figure>
         )
       }
