@@ -1,30 +1,8 @@
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
 import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import PostItem from '../components/PostItem'
 import { getNotionDataList } from '../lib/getNotionData'
-
-export const useDarkMode = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
-
-  useEffect(() => {
-    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }, [isDarkMode])
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-    const switchedMode = localStorage.theme === 'dark' ? 'light' : 'dark'
-    localStorage.setItem('theme', switchedMode)
-  }
-
-  return { isDarkMode, toggleDarkMode }
-}
 
 export default function Home({ posts, inventoryPosts, popularPosts }) {
   const sections = [

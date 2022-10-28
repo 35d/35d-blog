@@ -7,8 +7,10 @@ import results3 from '../results3.json' // 記事のメタ情報
 import results4 from '../results4.json' // book 用 記事一覧
 import results5 from '../results5.json' // web stock 用 記事一覧
 
-// ローカルに保存したデータを利用するかどうか（開発時のみ true にする）
-const SHOULD_USE_LOCAL_DATA = false
+// ローカルに保存したデータを利用するかどうか
+const SHOULD_USE_LOCAL_DATA =
+  true && // （開発時のみ true にすると良い。true にするとローカルデータを参照するようになる）
+  process.env.NODE_ENV !== 'production' // true のままコミットしてしまっても大丈夫なように事故防止機構
 
 // ローカル開発用のデータを更新するかどうか
 const SHOULD_REFRESH_LOCAL_DATA = false

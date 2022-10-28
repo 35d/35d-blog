@@ -7,19 +7,19 @@ import Header from '../components/Header'
 import Heading1 from '../components/Heading1'
 import NoteLink from '../components/NoteLink'
 import Tags from '../components/Tags'
-import { getBlocks, getNotionDataList, getPage } from '../lib/getNotionData'
+import { getBlocks, getPage } from '../lib/getNotionData'
 import { getAltStr, getCaptionStr, getDateStr } from '../lib/helpers'
 import saveImageIfNeeded from '../lib/saveImage'
-import NextPreviousNavigationLinks, { NavLink } from '../components/NextPreviousNavigationLinks'
+import NextPreviousNavigationLinks from '../components/NextPreviousNavigationLinks'
 import { getArticleList } from '../models/article'
-
-const databaseId = process.env.NOTION_DATABASE_ID
+import { buildNavLinkViewModel } from '../models/view/NextPreviousNavigationLinks'
 
 // TODO
 type Post = any
 
 /**
  * Notion のブロックから JSX エレメントを返却する
+ * TODO: リファクタ（別のページへ移動）
  */
 const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   const { type, id } = block
@@ -54,7 +54,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
       // 外部埋め込み画像は現在非対応
       if (block.image.type === 'file') {
         return (
-          <figure key={id} className={'mb-3 relative'}>
+          <figure key={id} className={'mb-3 relative flex flex-col gap-y-2'}>
             <Image
               src={'/blogImages/' + block.id + '.png'}
               alt={getAltStr(value.caption)}
@@ -69,7 +69,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
               alt={getAltStr(value.caption)}
               className={'mb-2'}
             /> */}
-            <figcaption>{getCaptionStr(value.caption)}</figcaption>
+            <figcaption className="opacity-85">{getCaptionStr(value.caption)}</figcaption>
           </figure>
         )
       }
@@ -130,11 +130,7 @@ const getJsxElementFromNotionBlock = (block: any): JSX.Element => {
   }
 }
 
-export default function Post({
-  page,
-  blocks,
-  // navLink
-}) {
+export default function Post({ page, blocks, navLink }) {
   if (!page || !blocks) return <div>ページが存在しません</div>
 
   const title = page.properties.Page.title[0]?.plain_text
@@ -179,7 +175,7 @@ export default function Post({
       <div className="mb-8">{blocks.map(getJsxElementFromNotionBlock)}</div>
 
       {/* 前の記事 / 次の記事 */}
-      {/* <NextPreviousNavigationLinks navLink={navLink} /> */}
+      <NextPreviousNavigationLinks navLink={navLink} />
     </>
   )
 }
@@ -207,39 +203,24 @@ export const getStaticProps = async (context) => {
 
   const allData = await getArticleList()
 
-  // let nextIndex: number, prevIndex: number
+  let currentIndex: number // 現在の記事のインデックス番号
 
-  // Slug に一致するものだけをフィルタ
-  const database = allData.filter((_, index) => {
-    if (_.properties.Slug.rich_text[0].plain_text === slug) {
-      // 最初の記事でなければ次（未来）の記事が存在
-      // if (index !== 0) nextIndex = index - 1
-
-      // 最後の記事でなければ前（過去）の記事が存在
-      // if (index !== allData.length - 1) prevIndex = index + 1
-
+  const database = allData
+    // Slug に一致するものだけをフィルタする（Slug が重複していない前提・必ず1件だけヒットする想定）
+    .filter((_, index) => {
+      if (_.properties.Slug.rich_text[0].plain_text !== slug) return false
+      currentIndex = index
       return true
-    }
-    return false
-  })
+    })
+
+  // ナビゲーション用のデータ
+  const navLink = buildNavLinkViewModel(allData, currentIndex)
 
   // ページのメタデータを取得する
   const page = await getPage(database[0].id)
 
   // ページの本文を取得する
   const blocks = await getBlocks(database[0].id)
-
-  // ナビゲーション用
-  // const navLink: NavLink = {
-  //   next: {
-  //     title: allData[nextIndex]?.properties.Page.title[0]?.plain_text || '',
-  //     slug: allData[nextIndex]?.properties.Slug.rich_text[0].plain_text || '',
-  //   },
-  //   prev: {
-  //     title: allData[prevIndex]?.properties.Page.title[0]?.plain_text || '',
-  //     slug: allData[prevIndex]?.properties.Slug.rich_text[0].plain_text || '',
-  //   },
-  // }
 
   const childrenBlocks = await Promise.all(
     blocks
@@ -266,7 +247,7 @@ export const getStaticProps = async (context) => {
     props: {
       page,
       blocks: blocksWithChildren,
-      // navLink,
+      navLink,
     },
     // revalidate: 6000,
   }

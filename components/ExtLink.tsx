@@ -1,5 +1,3 @@
-import { useDarkMode } from '../pages'
-
 const ExtLink = (props) => {
   return (
     <a {...props} rel="noopener" target={props.target || '_blank'}>

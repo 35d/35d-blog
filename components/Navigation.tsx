@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useDarkMode } from '../pages'
+import { useDarkMode } from '../hooks/useDarkMode'
 import ExtLink from './ExtLink'
 
 const navItems: { label: string; page?: string; link?: string }[] = [

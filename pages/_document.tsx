@@ -19,18 +19,8 @@ class MyDocument extends Document {
           `,
             }}
           />
-          {/* Adsense は使用しないことにした */}
-          {/* <script
-            data-ad-client="ca-pub-6440039437376764"
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script> */}
         </Head>
-        <body
-          className="p-[5%] pt-10 sm:pt-40 bg-gray-200 dark:bg-gray-800 font-normal text-gray-700 dark:text-gray-300 antialiased leading-relaxed sm:leading-relaxed transition-colors text-sm sm:text-base
-        
-        "
-        >
+        <body className="p-[5%] pt-10 sm:pt-40 bg-gray-50 dark:bg-gray-800 font-normal text-gray-700 dark:text-gray-300 antialiased leading-relaxed sm:leading-relaxed transition-colors text-sm sm:text-base">
           <div className="w-full max-w-3xl mx-auto flex flex-wrap items-start">
             <Main />
             <NextScript />
