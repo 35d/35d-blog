@@ -1,35 +1,8 @@
 import Link from 'next/link'
-import { useLayoutEffect, useState } from 'react'
 import BlockHeading from '../components/BlockHeading'
 import Header from '../components/Header'
 import PostItem from '../components/PostItem'
 import { getNotionDataList } from '../lib/getNotionData'
-
-// TODO: hooks ファイルとして切り出し
-export const useDarkMode = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
-
-  useLayoutEffect(() => {
-    setIsDarkMode(localStorage.getItem('theme') === 'dark')
-
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }, [isDarkMode])
-
-  // ダークモードとライトモードを切り替える
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-
-    const switchedMode = isDarkMode ? 'light' : 'dark'
-    setIsDarkMode(switchedMode === 'dark')
-    window.localStorage.setItem('theme', switchedMode)
-  }
-
-  return { isDarkMode, toggleDarkMode }
-}
 
 export default function Home({ posts, inventoryPosts, popularPosts }) {
   const sections = [
