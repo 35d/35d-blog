@@ -40,9 +40,9 @@ export const getCaptionStr = (caption: TODO[]): string | undefined => {
   return caption[0].plain_text.split(' | ')[0]
 }
 
-export const getAltStr = (caption: TODO[]) => {
-  if (!caption) return undefined
-  if (caption.length === 0) return undefined
+export const getAltStr = (caption: TODO[]): string => {
+  if (!caption) return ''
+  if (caption.length === 0) return ''
   return caption[0].plain_text.split(' | ')[1]
 }
 
