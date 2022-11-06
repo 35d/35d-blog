@@ -13,6 +13,7 @@ import saveImageIfNeeded from '../lib/saveImage'
 import NextPreviousNavigationLinks from '../components/NextPreviousNavigationLinks'
 import { getArticleList } from '../models/article'
 import { buildNavLinkViewModel } from '../models/view/NextPreviousNavigationLinks'
+import DateInfo from '../components/DateInfo'
 
 // TODO
 type Post = any
@@ -137,7 +138,8 @@ export default function Post({ page, blocks, navLink }) {
   const description = page.properties.Description.rich_text[0]?.plain_text
   const ogImageUrl = page.properties.ogImageUrl.rich_text[0]?.plain_text
   const tags = page.properties.Tag.multi_select.map((_) => _.name)
-  const date = page.properties.Date.date.start
+  const dateStr = page.properties.Date.date.start
+  const lastUpdatedAtStr = dayjs(page.properties.UpdatedAt.last_edited_time).format('YYYY-MM-DD')
 
   return (
     <>
@@ -149,10 +151,7 @@ export default function Post({ page, blocks, navLink }) {
       </div>
       <div>
         <p className={'opacity-90 font-bold'}>
-          <span className="posted mr-2">
-            <span className="fs12 mr-2">📆</span>
-            {getDateStr(date)}
-          </span>
+          <DateInfo dateStr={dateStr} />
           {tags && tags.length > 0 && (
             <span className="tag">
               <span className="fs12 mr-2">🔖 </span>
@@ -167,7 +166,7 @@ export default function Post({ page, blocks, navLink }) {
           <NoteLink />
         </div>
       )}
-      {dayjs(date).diff(dayjs(), 'year') < -1 && (
+      {dayjs(dateStr).diff(dayjs(), 'year') < -1 && (
         <p className="text-pink-700 dark:text-pink-600">
           <span className="font-semibold">⚠ </span>この記事は内容が古くなっています
         </p>

@@ -1,3 +1,5 @@
+import dayjs from 'dayjs'
+
 export const getBlogLink = (slug: string) => {
   return `/${encodeURIComponent(slug)}`
 }
@@ -6,13 +8,14 @@ export const getBlogTagLink = (tag: string) => {
   return `/tags/${encodeURIComponent(tag)}`
 }
 
-export const getDateStr = (date: string | undefined) => {
-  if (!date) return ''
-  return new Date(date).toLocaleString('en-US', {
-    month: 'long',
-    day: '2-digit',
-    year: 'numeric',
-  })
+/**
+ * 表示用の日付を返却する
+ * @param date date の string
+ * @returns 日付（2022/10/15）
+ */
+export const getDateStr = (dateStr: string | undefined) => {
+  if (!dateStr) return ''
+  return dayjs(dateStr).format('YYYY/MM/DD')
 }
 
 export const postIsReady = (post: any) => {
