@@ -153,7 +153,7 @@ export default function Post({ page, blocks, navLink }) {
             <span className="fs12 mr-2">📆</span>
             {getDateStr(date)}
           </span>
-          {tags && (
+          {tags && tags.length > 0 && (
             <span className="tag">
               <span className="fs12 mr-2">🔖 </span>
               <Tags tags={tags} />
