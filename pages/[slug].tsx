@@ -151,7 +151,7 @@ export default function Post({ page, blocks, navLink }) {
       </div>
       <div>
         <p className={'opacity-90 font-bold'}>
-          <DateInfo dateStr={dateStr} />
+          <DateInfo dateStr={dateStr} lastUpdatedAtStr={lastUpdatedAtStr} />
           {tags && tags.length > 0 && (
             <span className="tag">
               <span className="fs12 mr-2">🔖 </span>
@@ -166,9 +166,10 @@ export default function Post({ page, blocks, navLink }) {
           <NoteLink />
         </div>
       )}
-      {dayjs(dateStr).diff(dayjs(), 'year') < -1 && (
+      {dayjs(lastUpdatedAtStr).diff(dayjs(), 'year') < -1 && (
         <p className="text-pink-700 dark:text-pink-600">
-          <span className="font-semibold">⚠ </span>この記事は内容が古くなっています
+          <span className="font-semibold">⚠ </span>
+          この記事は最終更新日から1年以上が経過しています。内容が古い箇所がある可能性があるためご注意ください。
         </p>
       )}
       <div className="mb-8">{blocks.map(getJsxElementFromNotionBlock)}</div>
