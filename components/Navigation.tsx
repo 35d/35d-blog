@@ -5,8 +5,8 @@ import ExtLink from './ExtLink'
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'ABOUT', page: '/2021-08-19-about' },
   { label: 'ARTICLES', page: '/posts' },
-  { label: 'WEB CLIPS', page: '/stock-articles' },
-  { label: 'READ BOOKS', page: '/books' },
+  // { label: 'WEB CLIPS', page: '/stock-articles' },
+  // { label: 'READ BOOKS', page: '/books' },
   { label: 'PROFILE', page: '/2020-09-19-profile' },
   // { label: 'RSS FEED', page: '/feed' },
   // { label: 'FAST NOTION', page: '/2021-04-22-fast-notion-help-center' },
